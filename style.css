@@ -1,80 +1,118 @@
-h1{
-    color: rgb(92, 184, 153);
-    font-family: 'Secular One', sans-serif;
-    font-size: 7em;
-    text-align: center;
-    background-image: url(maximalfocus-VT4rx775FT4-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 100px;
-    width: 1145px; 
-    height: 200px;
-}
-
-ul{
-    color: rgb(92, 184, 153);
-    font-family: 'Secular One', sans-serif;
-    font-size: 2em;
-    background-color: darkcyan;
-    background-size: cover;
-    background-position: center;
-    padding: 5px;
-    width: 600px;
-    height: 140px;
-    border: 5px solid black;
-}
-
-.introduction{
-    font-family: 'Secular One', sans-serif;
-    font-style: italic;
-    font-weight: 1000;
-}
-
-p{
-    font-family: 'Secular One', sans-serif;
-    font-size: 1,5em;
-}
-
 body{
-    background-image: url(scott-webb-aHhhdKUP77M-unsplash.jpg);
+
+    background-image: url(back.jpg);
     background-size: cover;
     background-position: center;
+
 }
 
-img{
+.title{
+
+    color: rgb(92, 184, 153);
+    font-family: 'Secular One', sans-serif;
+    font-size: 1000%;
+    text-align: center;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-top: 0;
+
+}
+
+.title2{
+
+    color: rgb(92, 184, 153);
+    font-family: 'Secular One', sans-serif;
+    font-size: 800%;
+    text-align: center;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-top: 0;
+
+}
+
+
+.games{
     border: 5px solid black;
     border-radius: 70px 70px 70px 70px;
     box-shadow: 20px 20px 20px black;
+    margin-bottom: 10px;
 }
 
-a{ 
+
+
+.jeux  { 
+
     color: rgb(92, 184, 153);
     font-family: 'Secular One', sans-serif;
     font-size: 2em;
-    background-image: url(15A0FC70-DBEB-448C-8E69-5E4981463C88.jpg);
+    background-color: #008a8a;
     border: 5px solid black;
     border-radius: 70px 70px 70px 70px;
     background-size: cover;
     background-position: center;
     padding: 10px;
     display: block;
-    width: 600px;
-    height: 40px;
+    transition: 0.3s;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-a:hover{
-    color: black;
+
+
+.jeux:hover {
+
+    color: rgb(109,10,231);
+    background: #ff7575;
+
 }
 
-h2{
-    color: rgb(92, 184, 153);
-    font-family: 'Secular One', sans-serif;
-    font-size: 7em;
+
+
+.pages {
+
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.center {
+
     text-align: center;
-    background-image: url(maximalfocus-VT4rx775FT4-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 100px;
-    width: 1145px; 
-    height: 200px;
+
+}
+
+
+
+.intro {
+
+    font-family: 'Secular One', sans-serif;
+    background-color: #008a8a;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 10px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+
+.next {
+
+    font-family: 'Secular One', sans-serif;
+    margin-left: 20px;
+    background-color: #008a8a;
+    padding: 30px;
+    border-radius: 100px;
+    border-color: black;
+    border-style: solid;
+
 }
