@@ -29,15 +29,15 @@ body{
     background-image: url(banner.jpg);
     background-size: cover;
     background-position: center;
-    padding: 10px;
+    padding: 61px;
     margin-top: 0;
 
 }
 
 
 .games{
-    border: 5px solid black;
-    border-radius: 70px 70px 70px 70px;
+    border: 7px solid black;
+    border-radius: 70px;
     box-shadow: 20px 20px 20px black;
     margin-bottom: 10px;
 }
@@ -66,8 +66,8 @@ body{
 
 .jeux:hover {
 
-    color: rgb(109,10,231);
-    background: #ff7575;
+    color:white;
+    background: black;
 
 }
 
@@ -114,5 +114,5 @@ body{
     border-radius: 100px;
     border-color: black;
     border-style: solid;
-
+    font-size: 225%;
 }
