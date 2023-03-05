@@ -1,6 +1,6 @@
 body{
 
-    background-image: url(back.jpg);
+    background-image: url(back.png);
     background-size: cover;
     background-position: center;
 
@@ -12,7 +12,7 @@ body{
     font-family: 'Secular One', sans-serif;
     font-size: 1000%;
     text-align: center;
-    background-image: url(banner.jpg);
+    background-image: url(banner.png);
     background-size: cover;
     background-position: center;
     padding: 10px;
@@ -24,9 +24,9 @@ body{
 
     color: rgb(92, 184, 153);
     font-family: 'Secular One', sans-serif;
-    font-size: 800%;
+    font-size: 570%;
     text-align: center;
-    background-image: url(banner.jpg);
+    background-image: url(banner.png);
     background-size: cover;
     background-position: center;
     padding: 61px;
@@ -34,15 +34,39 @@ body{
 
 }
 
+.title3{
+
+    color: rgb(92, 184, 153);
+    font-family: 'Secular One', sans-serif;
+    font-size: 570%;
+    text-align: center;
+    background-image: url(banner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 61px;
+    margin-top: 0;
+
+}
 
 .games{
+
     border: 7px solid black;
     border-radius: 70px;
     box-shadow: 20px 20px 20px black;
     margin-bottom: 10px;
+
 }
 
+.console{
 
+    border: 7px solid black;
+    border-radius: 70px;
+    box-shadow: 20px 20px 20px black;
+    margin-bottom: 10px;
+    width: 600px;
+    margin-left: 20px; 
+
+}
 
 .jeux  { 
 
@@ -60,6 +84,7 @@ body{
     margin-top: 0;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 
@@ -102,10 +127,11 @@ body{
     margin-bottom: 10px;
     margin-right: 35%;
     margin-left: 35%;
+
 }
 
 
-.next {
+.para-jeux {
 
     font-family: 'Secular One', sans-serif;
     margin-left: 20px;
@@ -114,5 +140,38 @@ body{
     border-radius: 100px;
     border-color: black;
     border-style: solid;
-    font-size: 225%;
+    font-size: 155%;
+    
+}
+
+.para-consoles {
+
+    font-family: 'Secular One', sans-serif;
+    margin-left: 5%;
+    background-color: #008a8a;
+    border-radius: 100px;
+    border-color: black;
+    border-style: solid;
+    border: 7px solid black;
+    font-size: 230%;
+    margin-right: 2%;
+    padding: 5%;
+    
+
+}
+    
+.titreconsole {
+
+    font-family: 'Secular One', sans-serif;
+    margin-left: 20px;
+    margin-right: 500px;
+    background-color: #008a8a;
+    padding: 30px;
+    border-style: solid;
+    font-size: 600%;
+    border: black;
+    border: 7px solid black;
+    border-radius: 70px;
+    margin-bottom: 10px
+
 }
