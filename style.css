@@ -87,16 +87,12 @@ body{
 
 }
 
-
-
 .jeux:hover {
 
     color:white;
     background: black;
 
 }
-
-
 
 .pages {
 
@@ -107,15 +103,11 @@ body{
 
 }
 
-
-
 .center {
 
     text-align: center;
 
 }
-
-
 
 .intro {
 
@@ -129,7 +121,6 @@ body{
     margin-left: 35%;
 
 }
-
 
 .para-jeux {
 
@@ -174,4 +165,34 @@ body{
     border-radius: 70px;
     margin-bottom: 10px
 
+}
+
+nav {
+
+    background-color: #008a8a;
+    position: fixed;
+    width: 100%;
+    height: 63px;
+    top: -50px;
+    transition: 4s;
+    border: 5px solid black;
+
+}
+
+ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+
+.scroll {
+
+    color: rgb(92, 184, 153);
+    font-family: 'Secular One', sans-serif;
+    font-size: 3em; 
+    padding-left: 50%; 
+    
 }
