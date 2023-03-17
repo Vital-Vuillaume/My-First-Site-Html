@@ -1,5 +1,3 @@
-alert("Bienvenue sur le site de Vital.");
-
 console.log("Bonjour la console");
 
 let prenom = "Vital";
@@ -26,6 +24,6 @@ window.addEventListener('scroll',() => {
     if (window.scrollY > 120) {
         nav.style.top = 0;
     } else {
-        nav.style.top = "-90px";
+        nav.style.top = "-80px";
     }
 });

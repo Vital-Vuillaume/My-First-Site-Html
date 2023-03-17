@@ -1,0 +1,44 @@
+body{
+
+    background-size: cover;
+    background-position: center;
+    background-image: url(back.png);
+
+
+}
+
+.title2{
+
+    padding: 61px;
+    margin-top: 0;
+    font-size: 570%;
+    text-align: center;
+    background-size: cover;
+    color: rgb(92, 184, 153);
+    background-position: center;
+    background-image: url(banner.png);
+    font-family: 'Secular One', sans-serif;
+}
+
+
+.games{
+
+    border-radius: 70px;
+    margin-bottom: 10px;
+    border: 7px solid black;
+    box-shadow: 20px 20px 20px black;
+
+}
+
+.para-jeux {
+
+    font-size: 155%;
+    padding: 30px; 
+    margin-left: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 100px;
+    background-color: #008a8a;
+    font-family: 'Secular One', sans-serif;
+    
+}
