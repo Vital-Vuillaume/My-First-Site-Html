@@ -1,13 +1,16 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
 
     background-size: cover;
     background-position: center;
     background-image: url(back.png);
-
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
 
 }
 
-.title2{
+.title2 {
 
     padding: 61px;
     margin-top: 0;
@@ -17,11 +20,10 @@ body{
     color: rgb(92, 184, 153);
     background-position: center;
     background-image: url(banner.png);
-    font-family: 'Secular One', sans-serif;
+
 }
 
-
-.games{
+.games {
 
     border-radius: 70px;
     margin-bottom: 10px;
@@ -39,6 +41,5 @@ body{
     border-style: solid;
     border-radius: 100px;
     background-color: #008a8a;
-    font-family: 'Secular One', sans-serif;
-    
+
 }

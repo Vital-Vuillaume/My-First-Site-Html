@@ -1,25 +1,16 @@
+//if (window.location.protocol != "https:") {
+//   window.location.protocol="https:";
+//}
+
 console.log("Bonjour la console");
 
-let prenom = "Vital";
+let Easteregg = "Bien jouer mais ce n'est que le début de l'énigme!                    indice: bouton Xbox Series X"
 
-console.log(prenom);
-
-let number = 24 
-
-console.log(number);
-
-let objet = {
-    prenom: "Vital",
-    age: 33,
-    ville: "Bordeaux"
-}
-
-console.log(objet);
+let Vital = "Vital est beaucoup trop intelligent. il a 300 de Q1"
 
 const nav = document.querySelector('nav');
 
 window.addEventListener('scroll',() => {
-    console.log(window.scrollY);
 
     if (window.scrollY > 120) {
         nav.style.top = 0;
