@@ -2,24 +2,41 @@
 
 body {
 
-    background-image: url(back.png);
+    background-color: black;
     background-size: cover;
     background-position: center;
     margin: 0;
     font-family: 'Secular One', sans-serif;
+    text-align: center;
 
 }
 
 .title {
 
-    color: rgb(92, 184, 153);
+    color: white;
     font-size: 1000%;
     text-align: center;
-    background-image: url(banner.png);
     background-size: cover;
     background-position: center;
     padding: 10px;
     margin-top: 0;
+    margin-bottom: -4%;
+
+}
+
+hr {
+
+    width: 80%;
+    color: white;
+    margin-bottom: 3%;
+     
+}
+
+.imgtech {
+
+    width: 80%;
+    height: 410px;
+    margin-bottom: 5%;
 
 }
 
@@ -34,10 +51,10 @@ body {
 
 .jeux { 
 
-    color: rgb(92, 184, 153);
+    color: rgb(165, 159, 159);
     font-size: 2em;
-    background-color: #008a8a;
-    border: 5px solid black;
+    background-color: rgb(16, 15, 15);
+    border: 1px solid white;
     border-radius: 70px 70px 70px 70px;
     background-size: cover;
     background-position: center;
@@ -55,6 +72,7 @@ body {
 
     color:white;
     background: black;
+    font-size: 2.3em;
 
 }
 
@@ -70,9 +88,10 @@ body {
 
 }
 
-.center {
+.github {
 
-    text-align: center;
+    width: 40%;
+    height: 10%;
 
 }
 
@@ -90,22 +109,28 @@ body {
 
 nav {
 
-    background-color: #008a8a;
+    background-color: black;
     position: fixed;
-    width: 99.3%;
+    width: 99.8%;
     height: 60px;
     top: -80px;
     transition: 2s;
-    border: 5px solid black;
+    border: 1.8px solid white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     
 }
 
+.scroll:hover {
+
+    color:white;
+
+}
+
 .scroll {
 
-    color: rgb(92, 184, 153);
+    color: rgb(165, 159, 159);
     font-size: 3em; 
     margin-top: -15px; 
     margin-left: 100px;
@@ -119,5 +144,12 @@ nav {
     border: none;
     background: none;
     font-family: 'Secular One', sans-serif;
+
+}
+
+.fake_copyright {
+
+    margin-bottom: 50%;
+    color: white;
 
 }
