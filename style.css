@@ -24,20 +24,214 @@ body {
 
 }
 
+.title2 {
+
+    color: white;
+    font-size: 130%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 3%;
+    margin-bottom: -1%;
+
+}
+
 hr {
 
-    width: 80%;
+    width: 88%;
     color: white;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
+    margin-top: -5%;
      
 }
 
 .imgtech {
 
-    width: 80%;
-    height: 410px;
+    width: 88%;
+    height: 340px;
     margin-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
 
+}
+
+.paratitre {
+
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    margin-top: -2%;
+    line-height: 117%;
+    margin-right: 60.5%;
+    margin-top: 2.3%;
+
+}
+
+.logo-holder1 {
+
+    width: 180px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto ;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+.paragraphe {
+
+    color: white;
+    text-align: left;
+    margin-left: 22%;
+    margin-right: 15%;
+    font-size: 1.2em;
+    line-height: 160%;
+    margin-bottom: 5%;
+    margin-top: -3.5%;
+
+}
+
+.imgjeu {
+
+    margin-left: 16%;
+    margin-top: -3%;
+    height: 450px;
+    width: 72%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.paratitre2 {
+
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    margin-top: 3%;
+    line-height: 117%;
+    margin-right: 43%;
+    margin-top: 5.5%;
+
+}
+
+.logo-holder2 {
+
+    width: 180px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto ;
+    margin-left: 5%;
+    margin-top: 7.2%;
+
+}
+
+.paragraphe2 {
+
+    color: white;
+    text-align: left;
+    margin-left: 22%;
+    margin-right: 15%;
+    font-size: 1.2em;
+    line-height: 160%;
+    margin-bottom: 2%;
+    margin-top: -3.5%;
+
+}
+
+.bar {
+
+    position: relative;
+    height: 8px;
+    background: #6a6a6a;
+    width:  0%;
+    top: 0px;
+    left: 18px;
+    margin-top: 9px;
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    animation: fill 5s infinite alternate, colors 5s infinite alternate;
+    
+}
+
+.bar.fill1 {
+  animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar.fill2 {
+   animation:  fill-2 5s infinite alternate, colors 5s infinite alternate;
+}
+
+
+.bar.fill3 {
+   animation:  fill-3 5s infinite alternate, colors 5s infinite alternate;
+}
+
+
+.bar.fill4 {
+   animation:  fill-4 5s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar.fill5 {
+   animation:  fill-5 5s infinite alternate, colors 5s infinite alternate;
+}
+
+.bar.fill6 {
+   animation:  fill-6 5s infinite alternate, colors 5s infinite alternate;
+}
+
+
+
+@keyframes fill {
+  0%   { width: 0; }
+  33%  { width: 30px;}
+  66%  { width: 10px;}
+  100% { width: 105px; }
+}
+
+@keyframes fill-1 {
+  0%   { width: 0; }
+  33%  { width: 50px;}
+  66%  { width: 20px;}
+  100% { width: 130px; }
+}
+
+@keyframes fill-2 {
+  0%   { width: 0; }
+  33%  { width: 90px;}
+  66%  { width: 70px;}
+  100% { width: 136px; }
+}
+
+@keyframes fill-3 {
+  0%   { width: 0; }
+  33%  { width: 50px;}
+  66%  { width: 24px;}
+  100% { width: 109px; }
+}
+
+@keyframes fill-4 {
+  0%   { width: 0; }
+  33%  { width: 98px;}
+  66%  { width: 34px;}
+  100% { width: 99px; }
+}
+
+@keyframes fill-5 {
+  0%   { width: 0; }
+  33%  { width: 30px;}
+  66%  { width: 10px;}
+  100% { width: 148px; }
+}
+
+
+@keyframes fill-6 {
+  0%   { width: 0; }
+  33%  { width: 48px;}
+  66%  { width: 22px;}
+  100% { width: 140px; }
+}
+
+@keyframes colors {
+  0% { background-color: white;}
+  50% { background-color: rgb(0, 115, 255);}
+  100% { background-color: white;}
 }
 
 .games {
@@ -56,14 +250,9 @@ hr {
     background-color: rgb(16, 15, 15);
     border: 1px solid white;
     border-radius: 70px 70px 70px 70px;
-    background-size: cover;
-    background-position: center;
     padding: 10px;
-    display: block;
     transition: 0.3s;
     margin-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
     font-family: 'Secular One', sans-serif;
 
 }
@@ -88,22 +277,17 @@ hr {
 
 }
 
-.github {
+.git {
 
-    width: 40%;
-    height: 10%;
+    width: 30%;
+    transition: 0.3s;
+    margin-bottom: 15%;
 
 }
 
-.intro {
+.git:hover {
 
-    background-color: #008a8a;
-    border-color: black;
-    border-style: solid;
-    border-width: 5px;
-    margin-bottom: 75px;
-    margin-right: 35%;
-    margin-left: 35%;
+    width: 45%;
 
 }
 
