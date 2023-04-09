@@ -90,7 +90,7 @@ hr {
 
 }
 
-.imgjeu {
+.imgaccueil {
 
     margin-left: 16%;
     margin-top: -3%;
@@ -131,7 +131,7 @@ hr {
     margin-right: 15%;
     font-size: 1.2em;
     line-height: 160%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     margin-top: -3.5%;
 
 }
@@ -148,92 +148,128 @@ hr {
     left: 18px;
     margin-top: 9px;
     box-shadow: 0 0 3px rgba(192,192,192,0.9);
-    animation: fill 5s infinite alternate, colors 5s infinite alternate;
     
 }
 
 .bar.fill1 {
-  animation: fill-1 5s infinite alternate, colors 5s infinite alternate;
+
+    animation: fill-1 5s infinite alternate, colors-8 5s infinite alternate;
+
 }
 
 .bar.fill2 {
-   animation:  fill-2 5s infinite alternate, colors 5s infinite alternate;
-}
 
+    animation:  fill-2 5s infinite alternate, colors-7 5s infinite alternate;
+
+}
 
 .bar.fill3 {
-   animation:  fill-3 5s infinite alternate, colors 5s infinite alternate;
+
+    animation:  fill-3 5s infinite alternate, colors-6 5s infinite alternate;
+
 }
 
-
 .bar.fill4 {
-   animation:  fill-4 5s infinite alternate, colors 5s infinite alternate;
+
+    animation:  fill-4 5s infinite alternate, colors-5 5s infinite alternate;
+
 }
 
 .bar.fill5 {
-   animation:  fill-5 5s infinite alternate, colors 5s infinite alternate;
+
+    animation:  fill-5 5s infinite alternate, colors-4 5s infinite alternate;
+
 }
 
 .bar.fill6 {
-   animation:  fill-6 5s infinite alternate, colors 5s infinite alternate;
+
+    animation:  fill-6 5s infinite alternate, colors-3 5s infinite alternate;
+
 }
 
+.bar.fill7 {
 
+    animation:  fill-7 5s infinite alternate, colors-2 5s infinite alternate;
 
-@keyframes fill { 
-  0%   { width: 0; }
-  33%  { width: 30px;}
-  66%  { width: 10px;}
-  100% { width: 105px;}
+}
+
+.bar.fill8 {
+
+    animation:  fill-8 5s infinite alternate, colors-1 5s infinite alternate;
+
 }
 
 @keyframes fill-1 {
-  0%   { width: 0; }
-  33%  { width: 50px;}
-  66%  { width: 20px;}
-  100% { width: 130px;}
+
+    0%   { width: 0;}
+    33%  { width: 90px;}
+    66%  { width: 70px;}
+    100% { width: 136px;}
+
 }
 
 @keyframes fill-2 {
-  0%   { width: 0; }
-  33%  { width: 90px;}
-  66%  { width: 70px;}
-  100% { width: 136px;}
+ 
+    0%   { width: 0;}
+    33%  { width: 60px;}
+    66%  { width: 15px;}
+    100% { width: 130px;}
+
 }
 
 @keyframes fill-3 {
-  0%   { width: 0; }
-  33%  { width: 50px;}
-  66%  { width: 24px;}
-  100% { width: 109px;}
+
+    0%   { width: 0;}
+    33%  { width: 30px;}
+    66%  { width: 10px;}
+    100% { width: 105px;}
+
 }
 
 @keyframes fill-4 {
-  0%   { width: 0; }
-  33%  { width: 98px;}
-  66%  { width: 34px;}
-  100% { width: 99px;}
+
+    0%   { width: 0; }
+    33%  { width: 50px;}
+    66%  { width: 24px;}
+    100% { width: 109px;}
+
 }
 
 @keyframes fill-5 {
-  0%   { width: 0; }
-  33%  { width: 30px;}
-  66%  { width: 10px;}
-  100% { width: 148px;}
+
+    0%   { width: 0;}
+    33%  { width: 98px;}
+    66%  { width: 34px;}
+    100% { width: 99px;}
+
 }
 
 
 @keyframes fill-6 {
-  0%   { width: 0; }
-  33%  { width: 48px;}
-  66%  { width: 22px;}
-  100% { width: 140px;}
+
+    0%   { width: 0;}
+    33%  { width: 52px;}
+    66%  { width: 30px;}
+    100% { width: 155px;}
+
 }
 
-@keyframes colors {
-  0% { background-color: rgb(74, 145, 232);}
-  50% { background-color: white;}
-  100% { background-color: rgb(74, 145, 232);}
+@keyframes fill-7 {
+
+    0%   { width: 0;}
+    33%  { width: 65px;}
+    66%  { width: 22px;}
+    100% { width: 125px;}
+
+}
+
+@keyframes fill-8 {
+
+    0%   { width: 0;}
+    33%  { width: 50px;}
+    66%  { width: 20px;}
+    100% { width: 130px;}
+
 }
 
 /* deuxièmes animaion */
@@ -251,82 +287,82 @@ hr {
     
 }
 
-.bar2.fill7 {
-
-    animation: fill-7 5s infinite alternate, colors-1 5s infinite alternate;
-
-}
-
-.bar2.fill8 {
-
-    animation: fill-8 5s infinite alternate, colors-2 5s infinite alternate;
-
-}
-
 .bar2.fill9 {
 
-    animation: fill-9 5s infinite alternate, colors-3 5s infinite alternate;
+    animation: fill-9 5s infinite alternate, colors-1 5s infinite alternate;
 
 }
 
 .bar2.fill10 {
 
-    animation:  fill-10 5s infinite alternate, colors-4 5s infinite alternate;
+    animation: fill-10 5s infinite alternate, colors-2 5s infinite alternate;
 
 }
 
 .bar2.fill11 {
 
-    animation:  fill-11 5s infinite alternate, colors-5 5s infinite alternate;
+    animation: fill-11 5s infinite alternate, colors-3 5s infinite alternate;
 
 }
 
 .bar2.fill12 {
 
-    animation:  fill-12 5s infinite alternate, colors-6 5s infinite alternate;
+    animation:  fill-12 5s infinite alternate, colors-4 5s infinite alternate;
 
 }
 
 .bar2.fill13 {
 
-    animation:  fill-13 5s infinite alternate, colors-7 5s infinite alternate;
+    animation:  fill-13 5s infinite alternate, colors-5 5s infinite alternate;
 
 }
 
 .bar2.fill14 {
 
-    animation:  fill-14 5s infinite alternate, colors-8 5s infinite alternate;
+    animation:  fill-14 5s infinite alternate, colors-6 5s infinite alternate;
 
 }
 
-@keyframes fill-7 {
+.bar2.fill15 {
 
-    0%   { width: 0; }
+    animation:  fill-15 5s infinite alternate, colors-7 5s infinite alternate;
+
+}
+
+.bar2.fill16 {
+
+    animation:  fill-16 5s infinite alternate, colors-8 5s infinite alternate;
+
+}
+
+@keyframes fill-9 {
+
+    0%   { width: 0;}
     33%  { width: 30px;}
     66%  { width: 10px;}
     100% { width: 105px;}
 
 }
 
-@keyframes fill-8 {
+@keyframes fill-10 {
 
-    0%   { width: 0; }
+    0%   { width: 0;}
     33%  { width: 50px;}
-    66%  { width: 20px;} 
+    66%  { width: 20px;}
     100% { width: 130px;}
 
 }
 
-@keyframes fill-9 {
+@keyframes fill-11 {
 
-    0%   { width: 0; }
+    0%   { width: 0;}
     33%  { width: 90px;}
     66%  { width: 70px;}
-    100% { width: 136px;} 
+    100% { width: 136px;}
 
 }
 
-@keyframes fill-10 {
+@keyframes fill-12 {
 
     0%   { width: 0; }
     33%  { width: 50px;}
@@ -335,36 +371,36 @@ hr {
 
 }
 
-@keyframes fill-11 {
+@keyframes fill-13 {
 
-    0%   { width: 0; }
+    0%   { width: 0;}
     33%  { width: 98px;}
     66%  { width: 34px;}
-    100% { width: 99px; }
+    100% { width: 99px;}
   
 }
 
-@keyframes fill-12 {
+@keyframes fill-14 {
 
-    0%   { width: 0; }
+    0%   { width: 0;}
     33%  { width: 30px;}
     66%  { width: 10px;}
     100% { width: 120px;}
 
 }
 
-@keyframes fill-13 {
+@keyframes fill-15 {
 
-    0%   { width: 0; }
+    0%   { width: 0;}
     33%  { width: 48px;}
     66%  { width: 22px;}
     100% { width: 140px;}
 
 }
 
-@keyframes fill-14 {
+@keyframes fill-16 {
 
-    0%   { width: 0; }
+    0%   { width: 0;}
     33%  { width: 65px;}
     66%  { width: 22px;}
     100% { width: 125px;}
@@ -418,7 +454,7 @@ hr {
 }
 
 @keyframes colors-7 {
-    
+
     0% { background-color: rgb(5, 11, 45);}
     50% { background-color: white}
     100% { background-color: rgb(5, 11, 45);}
@@ -446,7 +482,7 @@ hr {
     color: rgb(165, 159, 159);
     font-size: 2em;
     background-color: rgb(16, 15, 15);
-    border: 1px solid white;
+    border: 1px solid  rgb(165, 159, 159);
     border-radius: 70px 70px 70px 70px;
     padding: 10px;
     transition: 0.3s;
@@ -460,6 +496,7 @@ hr {
     color:white;
     background: black;
     font-size: 2.3em;
+    border: 1px solid white;
 
 }
 
@@ -472,6 +509,19 @@ hr {
     height: 68px;
     margin-bottom: 25px;
     border-radius: 34px;
+
+}
+
+.pagesjeux {
+
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 68px;
+    margin-bottom: 5%;
+    border-radius: 34px;
+    margin-right: 15%;
 
 }
 
@@ -504,12 +554,6 @@ nav {
     
 }
 
-.scroll:hover {
-
-    color:white;
-
-}
-
 .scroll {
 
     color: rgb(165, 159, 159);
@@ -517,6 +561,12 @@ nav {
     margin-top: -15px; 
     margin-left: 100px;
     
+}
+
+.scroll:hover {
+
+    color:white;
+
 }
 
 .scrollbouton {
@@ -531,7 +581,6 @@ nav {
 
 .fake_copyright {
 
-    margin-bottom: 50%;
     color: white;
 
 }
