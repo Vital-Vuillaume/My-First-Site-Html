@@ -4,7 +4,11 @@
 
 console.log("Bonjour la console");
 
+let Easteregg = "ESSAYE DE TROUVER LE PLUS D'EASTEREGGS POSSIBLE!" 
 
+let Easteregg1 = "Bien jouer mais ce n'est que le début de l'énigme!                    indice: bouton Xbox Series X"
+
+let Vital = "Vital est beaucoup trop intelligent. il a 300 de QI"
 
 const nav = document.querySelector('nav');
 

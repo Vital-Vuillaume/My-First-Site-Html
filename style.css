@@ -136,6 +136,8 @@ hr {
 
 }
 
+/* premiere animaion */ 
+
 .bar {
 
     position: relative;
@@ -178,46 +180,46 @@ hr {
 
 
 
-@keyframes fill {
+@keyframes fill { 
   0%   { width: 0; }
   33%  { width: 30px;}
   66%  { width: 10px;}
-  100% { width: 105px; }
+  100% { width: 105px;}
 }
 
 @keyframes fill-1 {
   0%   { width: 0; }
   33%  { width: 50px;}
   66%  { width: 20px;}
-  100% { width: 130px; }
+  100% { width: 130px;}
 }
 
 @keyframes fill-2 {
   0%   { width: 0; }
   33%  { width: 90px;}
   66%  { width: 70px;}
-  100% { width: 136px; }
+  100% { width: 136px;}
 }
 
 @keyframes fill-3 {
   0%   { width: 0; }
   33%  { width: 50px;}
   66%  { width: 24px;}
-  100% { width: 109px; }
+  100% { width: 109px;}
 }
 
 @keyframes fill-4 {
   0%   { width: 0; }
   33%  { width: 98px;}
   66%  { width: 34px;}
-  100% { width: 99px; }
+  100% { width: 99px;}
 }
 
 @keyframes fill-5 {
   0%   { width: 0; }
   33%  { width: 30px;}
   66%  { width: 10px;}
-  100% { width: 148px; }
+  100% { width: 148px;}
 }
 
 
@@ -225,13 +227,209 @@ hr {
   0%   { width: 0; }
   33%  { width: 48px;}
   66%  { width: 22px;}
-  100% { width: 140px; }
+  100% { width: 140px;}
 }
 
 @keyframes colors {
-  0% { background-color: white;}
-  50% { background-color: rgb(0, 115, 255);}
-  100% { background-color: white;}
+  0% { background-color: rgb(74, 145, 232);}
+  50% { background-color: white;}
+  100% { background-color: rgb(74, 145, 232);}
+}
+
+/* deuxièmes animaion */
+
+.bar2 {
+
+    position: relative;
+    height: 8px;
+    background: #6a6a6a;
+    width:  0%;
+    top: 0px;
+    left: 18px;
+    margin-top: 9px;
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    
+}
+
+.bar2.fill7 {
+
+    animation: fill-7 5s infinite alternate, colors-1 5s infinite alternate;
+
+}
+
+.bar2.fill8 {
+
+    animation: fill-8 5s infinite alternate, colors-2 5s infinite alternate;
+
+}
+
+.bar2.fill9 {
+
+    animation: fill-9 5s infinite alternate, colors-3 5s infinite alternate;
+
+}
+
+.bar2.fill10 {
+
+    animation:  fill-10 5s infinite alternate, colors-4 5s infinite alternate;
+
+}
+
+.bar2.fill11 {
+
+    animation:  fill-11 5s infinite alternate, colors-5 5s infinite alternate;
+
+}
+
+.bar2.fill12 {
+
+    animation:  fill-12 5s infinite alternate, colors-6 5s infinite alternate;
+
+}
+
+.bar2.fill13 {
+
+    animation:  fill-13 5s infinite alternate, colors-7 5s infinite alternate;
+
+}
+
+.bar2.fill14 {
+
+    animation:  fill-14 5s infinite alternate, colors-8 5s infinite alternate;
+
+}
+
+@keyframes fill-7 {
+
+    0%   { width: 0; }
+    33%  { width: 30px;}
+    66%  { width: 10px;}
+    100% { width: 105px;}
+
+}
+
+@keyframes fill-8 {
+
+    0%   { width: 0; }
+    33%  { width: 50px;}
+    66%  { width: 20px;} 
+    100% { width: 130px;}
+
+}
+
+@keyframes fill-9 {
+
+    0%   { width: 0; }
+    33%  { width: 90px;}
+    66%  { width: 70px;}
+    100% { width: 136px;} 
+
+}
+
+@keyframes fill-10 {
+
+    0%   { width: 0; }
+    33%  { width: 50px;}
+    66%  { width: 24px;}
+    100% { width: 109px;}
+
+}
+
+@keyframes fill-11 {
+
+    0%   { width: 0; }
+    33%  { width: 98px;}
+    66%  { width: 34px;}
+    100% { width: 99px; }
+  
+}
+
+@keyframes fill-12 {
+
+    0%   { width: 0; }
+    33%  { width: 30px;}
+    66%  { width: 10px;}
+    100% { width: 120px;}
+
+}
+
+@keyframes fill-13 {
+
+    0%   { width: 0; }
+    33%  { width: 48px;}
+    66%  { width: 22px;}
+    100% { width: 140px;}
+
+}
+
+@keyframes fill-14 {
+
+    0%   { width: 0; }
+    33%  { width: 65px;}
+    66%  { width: 22px;}
+    100% { width: 125px;}
+
+}
+
+@keyframes colors-1 {
+
+    0% { background-color: rgb(129, 142, 214);}
+    50% { background-color: white}
+    100% { background-color: rgb(129, 142, 214);}
+}
+
+@keyframes colors-2 {
+
+    0% { background-color: rgb(94, 111, 209);}
+    50% { background-color: white}
+    100% { background-color: rgb(94, 111, 209);}
+}
+
+@keyframes colors-3 {
+
+    0% { background-color: rgb(51, 64, 141);}
+    50% { background-color: white}
+    100% { background-color: rgb(51, 64, 141);}
+
+}
+
+@keyframes colors-4 {
+
+    0% { background-color: rgb(34, 46, 117);}
+    50% { background-color: white}
+    100% { background-color: rgb(34, 46, 117);}
+
+}
+
+@keyframes colors-5 {
+
+    0% { background-color: rgb(23, 32, 86);}
+    50% { background-color: white}
+    100% { background-color: rgb(23, 32, 86);}
+
+}
+
+@keyframes colors-6 {
+
+    0% { background-color: rgb(13, 21, 63);}
+    50% { background-color: white}
+    100% { background-color: rgb(13, 21, 63);}
+
+}
+
+@keyframes colors-7 {
+    
+    0% { background-color: rgb(5, 11, 45);}
+    50% { background-color: white}
+    100% { background-color: rgb(5, 11, 45);}
+}
+
+@keyframes colors-8 {
+
+    0% { background-color: rgb(1, 4, 22);}
+    50% { background-color: white}
+    100% { background-color: rgb(1, 4, 22);}
+
 }
 
 .games {
