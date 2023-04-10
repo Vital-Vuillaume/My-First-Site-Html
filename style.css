@@ -36,6 +36,8 @@ body {
 
 }
 
+/* ligne blanche */
+
 hr {
 
     width: 88%;
@@ -45,6 +47,8 @@ hr {
      
 }
 
+/* première image */
+
 .imgtech {
 
     width: 88%;
@@ -53,6 +57,8 @@ hr {
     border-radius: 20px 20px 20px 20px;
 
 }
+
+/* premier bloc */
 
 .paratitre {
 
@@ -90,6 +96,8 @@ hr {
 
 }
 
+/* images des blocs */
+
 .imgaccueil {
 
     margin-left: 16%;
@@ -99,6 +107,8 @@ hr {
     border-radius: 20px 20px 20px 20px;
 
 }
+
+/* deuxième bloc */
 
 .paratitre2 {
 
@@ -136,6 +146,8 @@ hr {
 
 }
 
+/* troisième bloc */
+
 .paratitre3 {
 
     text-align: left;
@@ -171,6 +183,8 @@ hr {
     margin-top: -3.5%;
 
 }
+
+/* quatrième bloc */
 
 .paratitre4 {
 
@@ -208,7 +222,7 @@ hr {
 
 }
 
-/* premiere animaion */ 
+/* première animaion */ 
 
 .bar {
 
@@ -344,7 +358,7 @@ hr {
 
 }
 
-/* deuxièmes animaion */
+/* deuxième animaion */
 
 .bar2 {
 
@@ -715,7 +729,7 @@ hr {
 
 }
 
-/* couleurs des animation */
+/* couleurs des animations */
 
 @keyframes colors-1 {
 
@@ -778,6 +792,8 @@ hr {
 
 }
 
+/* les boutons */
+
 .games {
 
     border: 7px solid black;
@@ -810,6 +826,8 @@ hr {
 
 }
 
+/* emplacement du bouton github */
+
 .pages {
 
     background: none;
@@ -821,6 +839,8 @@ hr {
     border-radius: 34px;
 
 }
+
+/* emplacement du bouton jeux */
 
 .pagesjeux {
 
@@ -835,6 +855,8 @@ hr {
 
 }
 
+/* emplacement du bouton consoles */
+
 .pagesconsoles {
 
     background: none;
@@ -847,6 +869,9 @@ hr {
     margin-left: 6%;
 
 }
+
+/* emplacement du bouton manettes */
+
 .pagesmanettes {
 
     background: none;
@@ -859,6 +884,8 @@ hr {
     margin-right: 12%;
 
 }
+
+/* image du github */
 
 .git {
 
@@ -874,6 +901,8 @@ hr {
     width: 45%;
 
 }
+
+/* barre de scroll */
 
 nav {
 
@@ -914,6 +943,8 @@ nav {
     font-family: 'Secular One', sans-serif;
 
 }
+
+/* le faux copyright */
 
 .fake_copyright {
 
