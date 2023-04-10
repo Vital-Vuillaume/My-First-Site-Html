@@ -136,6 +136,78 @@ hr {
 
 }
 
+.paratitre3 {
+
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    margin-top: 3%;
+    line-height: 117%;
+    margin-right: 44%;
+    margin-top: 5.5%;
+
+}
+
+.logo-holder3 {
+
+    width: 180px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto ;
+    margin-left: 5%;
+    margin-top: 7.2%;
+
+}
+
+.paragraphe3 {
+
+    color: white;
+    text-align: left;
+    margin-left: 22%;
+    margin-right: 15%;
+    font-size: 1.2em;
+    line-height: 160%;
+    margin-bottom: 1%;
+    margin-top: -3.5%;
+
+}
+
+.paratitre4 {
+
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    margin-top: 3%;
+    line-height: 117%;
+    margin-right: 53.7%;
+    margin-top: 5.5%;
+
+}
+
+.logo-holder4 {
+
+    width: 180px;
+    height: 220px;
+    position: relative;
+    margin: 0 auto ;
+    margin-left: 5%;
+    margin-top: 7.2%;
+
+}
+
+.paragraphe4 {
+
+    color: white;
+    text-align: left;
+    margin-left: 22%;
+    margin-right: 15%;
+    font-size: 1.2em;
+    line-height: 160%;
+    margin-bottom: 1%;
+    margin-top: -3.5%;
+
+}
+
 /* premiere animaion */ 
 
 .bar {
@@ -407,6 +479,244 @@ hr {
 
 }
 
+/* troisième animation */
+
+.bar3 {
+
+    position: relative;
+    height: 8px;
+    background: #6a6a6a;
+    width:  0%;
+    top: 0px;
+    left: 18px;
+    margin-top: 9px;
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    
+}
+
+.bar3.fill17 {
+
+    animation: fill-17 2.8s infinite alternate, colors-1 5.1s infinite alternate;
+
+}
+
+.bar3.fill18 {
+
+    animation: fill-18 2.7s infinite alternate, colors-2 5.2s infinite alternate;
+
+}
+
+.bar3.fill19 {
+
+    animation: fill-19 2.6s infinite alternate, colors-3 5.3s infinite alternate;
+
+}
+
+.bar3.fill20 {
+
+    animation:  fill-20 2.5s infinite alternate, colors-4 5.4s infinite alternate;
+
+}
+
+.bar3.fill21 {
+
+    animation:  fill-21 2.4s infinite alternate, colors-5 5.5s infinite alternate;
+}
+
+.bar3.fill22 {
+
+    animation:  fill-22 2.3s infinite alternate, colors-6 5.6s infinite alternate;
+
+}
+
+.bar3.fill23 {
+
+    animation:  fill-23 2.2s infinite alternate, colors-7 5.7s infinite alternate;
+
+}
+
+.bar3.fill24 {
+
+    animation:  fill-24 2.1s infinite alternate, colors-8 5.8s infinite alternate;
+
+}
+
+@keyframes fill-17 {
+
+    10%   { width: 0;}
+    100% { width: 30px;}
+
+}
+
+@keyframes fill-18 {
+
+    10%   { width: 0;}
+    100% { width: 40px;}
+
+}
+
+@keyframes fill-19 {
+
+    10%   { width: 0;}
+    100% { width: 50px;}
+
+}
+
+@keyframes fill-20 {
+
+    10%   { width: 0; }
+    100% { width: 60px;}
+
+}
+
+@keyframes fill-21 {
+
+    10%   { width: 0;}
+    100% { width: 70px;}
+  
+}
+
+@keyframes fill-22 {
+
+    10%   { width: 0;}
+    100% { width: 80px;}
+
+}
+
+@keyframes fill-23 {
+
+    10%   { width: 0;}
+    100% { width: 90px;}
+
+}
+
+@keyframes fill-24 {
+
+    10%   { width: 0;}
+    100% { width: 100px;}
+
+}
+
+/*quatrième animation */
+
+.bar4 {
+
+    position: relative;
+    height: 8px;
+    background: #6a6a6a;
+    width:  0%;
+    top: 0px;
+    left: 18px;
+    margin-top: 9px;
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    
+}
+
+.bar4.fill25 {
+
+    animation: fill-25 2.27s infinite alternate, colors-8 2.27s infinite alternate;
+
+}
+
+.bar4.fill26 {
+
+    animation: fill-26 2.25s infinite alternate, colors-6 2.25s infinite alternate;
+
+}
+
+.bar4.fill27 {
+
+    animation: fill-27 2.23s infinite alternate, colors-4 2.23s infinite alternate;
+
+}
+
+.bar4.fill28 {
+
+    animation:  fill-28 2.21s infinite alternate, colors-2 2.21s infinite alternate;
+
+}
+
+.bar4.fill29 {
+
+    animation:  fill-29 2.21s infinite alternate, colors-2 2.21s infinite alternate;
+}
+
+.bar4.fill30 {
+
+    animation:  fill-30 2.23s infinite alternate, colors-4 2.23s infinite alternate;
+
+}
+
+.bar4.fill31 {
+
+    animation:  fill-31 2.25s infinite alternate, colors-6 2.25s infinite alternate;
+
+}
+
+.bar4.fill32 {
+
+    animation:  fill-32 2.27s infinite alternate, colors-8 2.27s infinite alternate;
+
+}
+
+@keyframes fill-25 {
+
+    10%   { width: 0;}
+    100% { width: 120px;}
+
+}
+
+@keyframes fill-26 {
+
+    10%   { width: 0;}
+    100% { width: 100px;}
+
+}
+
+@keyframes fill-27 {
+
+    10%   { width: 0;}
+    100% { width: 80px;}
+
+}
+
+@keyframes fill-28 {
+
+    10%   { width: 0; }
+    100% { width: 60px;}
+
+}
+
+@keyframes fill-29 {
+
+    10%   { width: 0;}
+    100% { width: 60px;}
+  
+}
+
+@keyframes fill-30 {
+
+    10%   { width: 0;}
+    100% { width: 80px;}
+
+}
+
+@keyframes fill-31 {
+
+    10%   { width: 0;}
+    100% { width: 100px;}
+
+}
+
+@keyframes fill-32 {
+
+    10%   { width: 0;}
+    100% { width: 120px;}
+
+}
+
+/* couleurs des animation */
+
 @keyframes colors-1 {
 
     0% { background-color: rgb(129, 142, 214);}
@@ -525,11 +835,37 @@ hr {
 
 }
 
+.pagesconsoles {
+
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 68px;
+    margin-bottom: 5%;
+    border-radius: 34px;
+    margin-left: 6%;
+
+}
+.pagesmanettes {
+
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 68px;
+    margin-bottom: 5%;
+    border-radius: 34px;
+    margin-right: 12%;
+
+}
+
 .git {
 
     width: 30%;
     transition: 0.3s;
     margin-bottom: 15%;
+    margin-top: 3%;
 
 }
 
