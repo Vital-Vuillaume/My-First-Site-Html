@@ -11,6 +11,8 @@ body {
 
 }
 
+/* grand titre */
+
 .title {
 
     color: white;
@@ -23,6 +25,9 @@ body {
     margin-bottom: -4%;
 
 }
+
+/* petit titre */
+
 
 .title2 {
 
@@ -54,6 +59,48 @@ hr {
     width: 88%;
     height: 340px;
     margin-bottom: 5%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+/* images des blocs */
+
+.imgaccueil {
+
+    margin-left: 16%;
+    margin-top: -3%;
+    height: 450px;
+    width: 72%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.imgaccueil2 {
+
+    margin-left: 16%;
+    margin-top: -3%;
+    height: 450px;
+    width: 72%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.imgaccueil3 {
+
+    margin-left: 16%;
+    margin-top: -3%;
+    height: 450px;
+    width: 72%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.imgaccueil4 {
+
+    margin-left: 16%;
+    margin-top: -3%;
+    height: 450px;
+    width: 72%;
     border-radius: 20px 20px 20px 20px;
 
 }
@@ -93,18 +140,6 @@ hr {
     line-height: 160%;
     margin-bottom: 5%;
     margin-top: -3.5%;
-
-}
-
-/* images des blocs */
-
-.imgaccueil {
-
-    margin-left: 16%;
-    margin-top: -3%;
-    height: 450px;
-    width: 72%;
-    border-radius: 20px 20px 20px 20px;
 
 }
 
@@ -792,7 +827,7 @@ hr {
 
 }
 
-/* les boutons */
+/* bouton jeux video */
 
 .games {
 
@@ -826,22 +861,6 @@ hr {
 
 }
 
-/* emplacement du bouton github */
-
-.pages {
-
-    background: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    height: 68px;
-    margin-bottom: 25px;
-    border-radius: 34px;
-
-}
-
-/* emplacement du bouton jeux */
-
 .pagesjeux {
 
     background: none;
@@ -855,7 +874,30 @@ hr {
 
 }
 
-/* emplacement du bouton consoles */
+/* bouton consoles */
+
+.jeux2 { 
+    
+    color: rgb(165, 159, 159);
+    font-size: 2em;
+    background-color: rgb(16, 15, 15);
+    border: 1px solid  rgb(165, 159, 159);
+    border-radius: 70px 70px 70px 70px;
+    padding: 10px;
+    transition: 0.3s;
+    margin-top: 0;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.jeux2:hover {
+
+    color:white;
+    background: black;
+    font-size: 2.3em;
+    border: 1px solid white;
+
+}
 
 .pagesconsoles {
 
@@ -870,7 +912,30 @@ hr {
 
 }
 
-/* emplacement du bouton manettes */
+/* bouton manettes */
+
+.jeux3 { 
+    
+    color: rgb(165, 159, 159);
+    font-size: 2em;
+    background-color: rgb(16, 15, 15);
+    border: 1px solid  rgb(165, 159, 159);
+    border-radius: 70px 70px 70px 70px;
+    padding: 10px;
+    transition: 0.3s;
+    margin-top: 0;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.jeux3:hover {
+
+    color:white;
+    background: black;
+    font-size: 2.3em;
+    border: 1px solid white;
+
+}
 
 .pagesmanettes {
 
@@ -885,7 +950,7 @@ hr {
 
 }
 
-/* image du github */
+/* image et bouton github */
 
 .git {
 
@@ -899,6 +964,18 @@ hr {
 .git:hover {
 
     width: 45%;
+
+}
+
+.pages {
+
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 68px;
+    margin-bottom: 25px;
+    border-radius: 34px;
 
 }
 
@@ -944,10 +1021,574 @@ nav {
 
 }
 
-/* le faux copyright */
+/* faux copyright */
 
 .fake_copyright {
 
     color: white;
+
+}
+
+/* pour les telephones de 320px */
+
+@media screen and (max-width: 320px){
+
+    body {
+
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: 'Secular One', sans-serif;
+        text-align: center;
+    
+    }
+
+    /* grand titre */
+
+    .title {
+
+        color: white;
+        font-size: 300%;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: -4%;
+    
+    }
+
+    /* petit titre */
+
+    .title2 {
+
+        color: white;
+        font-size: 80%;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        margin-top: 3%;
+        margin-bottom: -1%;
+    
+    }
+
+    /* ligne blanche */
+
+    hr {
+
+        width: 85%;
+        color: white;
+        margin-bottom: 3%;
+        margin-top: -7%;
+         
+    }
+
+    /* première image */
+
+    .imgtech {
+
+        width: 85.5%;
+        height: 105px;
+        margin-bottom: -23%;
+        border-radius: 0%;
+    
+    }
+
+    /* images des blocs */
+
+    .imgaccueil {
+
+        margin-top: -3%;
+        margin-left: 1%;
+        width: 85.5%;
+        height: 135px;
+        border-radius: 0%;
+
+    }
+
+    .imgaccueil2 {
+
+        margin-top: -2%;
+        margin-left: 1%;
+        width: 85.5%;
+        height: 135px;
+        border-radius: 0%;
+    
+    }
+
+    .imgaccueil3 {
+
+        margin-top: -2.5%;
+        margin-left: 1%;
+        width: 85.5%;
+        height: 135px;
+        border-radius: 0%;
+    
+    }
+
+    .imgaccueil4 {
+
+        margin-top: -3%;
+        margin-left: 1%;
+        width: 85.5%;
+        height: 135px;
+        border-radius: 0%;
+    
+    }
+
+    /* premier bloc */
+
+    .paratitre {
+
+        text-align: left;
+        color: white;
+        font-size: 1.4em;
+        margin-top: -9%;
+        line-height: 90%;
+        margin-right: 10%;
+        position: absolute;
+    
+    }
+
+    .logo-holder1 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -40%;
+        margin-top: 25%;
+        margin-bottom: -2%;
+    
+    }
+
+    .paragraphe {
+
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.7em;
+        line-height: 140%;
+        margin-bottom: 7%;
+        margin-top: -40%;
+    
+    }
+
+    /* deuxième bloc */
+
+    .paratitre2 {
+
+        text-align: left;
+        color: white;
+        font-size: 1.4em;
+        margin-top: -35%;
+        line-height: 90%;
+        margin-right: 10%;
+        position: absolute;
+    
+    }
+
+    .logo-holder2 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -7%;
+        margin-top: 3.5%;
+    
+    }
+
+    .paragraphe2 {
+
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.7em;
+        line-height: 140%;
+        margin-bottom: 1.7%;
+        margin-top: -45%;
+    
+    }
+
+    /* troisième blocs */
+
+    .paratitre3 {
+
+        text-align: left;
+        color: white;
+        font-size: 1.4em;
+        margin-top: -35%;
+        line-height: 90%;
+        margin-right: 10%;
+        position: absolute;
+    
+    }
+
+    .logo-holder3 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -8%;
+        margin-top: 3.5%;
+    
+    }
+
+    .paragraphe3 {
+
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.7em;
+        line-height: 140%;
+        margin-bottom: 2%;
+        margin-top: -45%;
+    
+    }
+
+    /* quatrième bloc */
+
+    .paratitre4 {
+
+        text-align: left;
+        color: white;
+        font-size: 1.4em;
+        margin-top: -35%;
+        line-height: 90%;
+        margin-right: 10%;
+        position: absolute;
+    
+    }
+
+    .logo-holder4 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -27%;
+        margin-top: 3.5%;
+
+    }
+
+    .paragraphe4 {
+
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.7em;
+        line-height: 140%;
+        margin-bottom: 2%;
+        margin-top: -45%;
+    
+    }
+
+    /* première animation */
+
+    .bar {
+
+        position: relative;
+        height: 3.3px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 4.6px;
+        box-shadow: 0 0 3px rgba(192,192,192,0.9);
+        
+    }
+
+    /* deuxième animation */
+
+    .bar2 {
+
+        position: relative;
+        height: 3.3px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 3.5px;
+        box-shadow: 0 0 3px rgba(192,192,192,0.9);
+        
+    }
+
+    @keyframes fill-9 {
+
+        0%   { width: 0;}
+        33%  { width: 30px;}
+        66%  { width: 10px;}
+        100% { width: 82px;}
+    
+    }
+    
+    @keyframes fill-10 {
+    
+        0%   { width: 0;}
+        33%  { width: 50px;}
+        66%  { width: 20px;}
+        100% { width: 42px;}
+    
+    }
+    
+    @keyframes fill-11 {
+    
+        0%   { width: 0;}
+        33%  { width: 71px;}
+        66%  { width: 42px;}
+        100% { width: 70px;}
+    
+    }
+    
+    @keyframes fill-12 {
+    
+        0%   { width: 0; }
+        33%  { width: 50px;}
+        66%  { width: 24px;}
+        100% { width: 49px;}
+    
+    }
+    
+    @keyframes fill-13 {
+    
+        0%   { width: 0;}
+        33%  { width: 60px;}
+        66%  { width: 34px;}
+        100% { width: 54px;}
+      
+    }
+    
+    @keyframes fill-14 {
+    
+        0%   { width: 0;}
+        33%  { width: 30px;}
+        66%  { width: 10px;}
+        100% { width: 62px;}
+    
+    }
+    
+    @keyframes fill-15 {
+    
+        0%   { width: 0;}
+        33%  { width: 48px;}
+        66%  { width: 22px;}
+        100% { width: 84px;}
+    
+    }
+    
+    @keyframes fill-16 {
+    
+        0%   { width: 0;}
+        33%  { width: 65px;}
+        66%  { width: 22px;}
+        100% { width: 56px;}
+    
+    }
+
+    /* troisième animation */
+
+    .bar3 {
+
+        position: relative;
+        height: 3px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 4.6px;
+        box-shadow: 0 0 3px rgba(192,192,192,0.9);
+        
+    }
+
+    @keyframes fill-17 {
+
+        10%   { width: 0;}
+        100% { width: 20px;}
+    
+    }
+    
+    @keyframes fill-18 {
+    
+        10%   { width: 0;}
+        100% { width: 30px;}
+    
+    }
+    
+    @keyframes fill-19 {
+    
+        10%   { width: 0;}
+        100% { width: 40px;}
+    
+    }
+    
+    @keyframes fill-20 {
+    
+        10%   { width: 0; }
+        100% { width: 50px;}
+    
+    }
+    
+    @keyframes fill-21 {
+    
+        10%   { width: 0;}
+        100% { width: 60px;}
+      
+    }
+    
+    @keyframes fill-22 {
+    
+        10%   { width: 0;}
+        100% { width: 70px;}
+    
+    }
+    
+    @keyframes fill-23 {
+    
+        10%   { width: 0;}
+        100% { width: 80px;}
+    
+    }
+    
+    @keyframes fill-24 {
+    
+        10%   { width: 0;}
+        100% { width: 90px;}
+    
+    }
+
+   /* quatrième animation */
+   
+   .bar4 {
+
+    position: relative;
+    height: 3px;
+    background: #6a6a6a;
+    width: 0%;
+    top: 0px;
+    left: 250px;
+    margin-top: 4.6px;
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    
+    }
+
+    /* affichage des boutons */
+
+    .games {
+
+        border: 7px solid black;
+        border-radius: 70px;
+        box-shadow: 20px 20px 20px black;
+        margin-bottom: 0px;
+    
+    }
+
+    /* bouton jeux video */
+
+    .jeux { 
+    
+        color: rgb(165, 159, 159);
+        font-size: 1.2em;
+        background-color: rgb(16, 15, 15);
+        border: 1px solid  rgb(165, 159, 159);
+        border-radius: 70px 70px 70px 70px;
+        font-family: 'Secular One', sans-serif;
+        margin-left: 6%;
+        width: 98%;
+        height: 60%;
+    
+    }
+
+    /* bouton console */
+
+    .jeux2 { 
+    
+        color: rgb(165, 159, 159);
+        font-size: 1.2em;
+        background-color: rgb(16, 15, 15);
+        border: 1px solid  rgb(165, 159, 159);
+        border-radius: 70px 70px 70px 70px;
+        font-family: 'Secular One', sans-serif;
+        margin-left: -3%;
+        width: 93%;
+        height: 60%;
+    
+    }
+
+    /* bouton manette */
+
+    .jeux3 { 
+    
+        color: rgb(165, 159, 159);
+        font-size: 1.2em;
+        background-color: rgb(16, 15, 15);
+        border: 1px solid  rgb(165, 159, 159);
+        border-radius: 70px 70px 70px 70px;
+        font-family: 'Secular One', sans-serif;
+        margin-left: 4%;
+        width: 98%;
+        height: 60%;
+    
+    }
+
+    /* bouton github */ 
+
+    .git {
+
+        width: 20%;
+        margin-bottom: 3%;
+        margin-top: -1%;
+    
+    }
+
+    /* barre de scroll */
+
+    nav {
+
+        background-color: black;
+        position: fixed;
+        width: 99.3%;
+        height: 35px;
+        top: -80px;;
+        border: 1.8px solid white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .scroll {
+
+        color: white;
+        font-size: 1.5em; 
+        margin-top: 0px; 
+        margin-left: 7.5px;
+        
+    }
+
+    .scrollbouton {
+
+        width: auto;
+        height: 33px;
+        border: none;
+        background: none;
+        font-family: 'Secular One', sans-serif;
+
+    }
+
+    /* faux copyright */
+
+    .fake_copyright {
+
+        color: white;
+        font-size: 0.6em;
+    
+    }
 
 }
