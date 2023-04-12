@@ -1,8 +1,8 @@
 //pour que le site soit sécurisé
 
-//if (window.location.protocol != "https:") {
-//   window.location.protocol="https:";
-//}
+if (window.location.protocol != "https:") {
+   window.location.protocol="https:";
+}
 
 //pour voir si la console fonctionne
 
