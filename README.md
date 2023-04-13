@@ -2,6 +2,6 @@ Welcome to my website, your online guide to all things video games and gaming eq
 
 My site provides in-depth information on the latest game releases, reviews and reviews, as well as the various consoles and controllers available on the market. While I may not be up to date with the latest trends in gaming technology, I strive to provide accurate, quality information about video games and gaming equipment.
 
-Je suis passionnés par l'industrie du gaming et je crois que chaque joueur mérite de trouver les jeux et les équipements qui répondent à ses besoins et à ses préférences. C'est pourquoi je suis engagés à fournir des informations précises et utiles pour vous aider à naviguer dans l'industrie du gaming en constante évolution.
+I am passionate about the gaming industry and believe that every gamer deserves to find the games and equipment that meet their needs and preferences. That's why I'm committed to providing accurate and useful information to help you navigate the ever-changing gaming industry.
 
-Rejoignez-moi dès maintenant et plongez dans le monde passionnant des jeux vidéo et des équipements de jeu !
+Join me now and immerse yourself in the exciting world of video games and gaming equipment!
