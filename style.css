@@ -1,3 +1,5 @@
+/* la police d'écriture */
+
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 body {
@@ -1029,7 +1031,24 @@ nav {
 
 }
 
-/*pour les telephons de moins de 375 pixels */
+/*pour les telephons de moins de 426 pixels */
+
+@media screen and (max-width: 425px) {
+
+    body {
+
+        background-color: red;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: 'Secular One', sans-serif;
+        text-align: center;
+    
+    }
+
+}
+
+/*pour les telephones de moins de 376 pixels */
 
 @media screen and (max-width: 375px) {
     
@@ -1593,7 +1612,7 @@ nav {
 
 }
 
-/* pour les telephones moins de 320 pixels */
+/* pour les telephones moins de 321 pixels */
 
 @media screen and (max-width: 320px) {
 
