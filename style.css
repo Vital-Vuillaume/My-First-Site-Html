@@ -35,6 +35,17 @@ body {
 
 }
 
+@keyframes apparition {
+
+    100% {
+
+        opacity: 1;
+        transform: none;
+
+    }
+
+}
+
 /* petit titre */
 
 .title2 {
@@ -66,6 +77,18 @@ hr {
      
 }
 
+@keyframes apparition2 {
+
+    100% {
+
+        opacity: 1;
+        transform: none;
+        width: 88%;
+
+    }
+
+}
+
 /* première image */
 
 .imgtech {
@@ -76,6 +99,18 @@ hr {
     border-radius: 20px 20px 20px 20px;
     opacity: 0;
     animation: apparition2 4s 3s forwards;
+
+}
+
+@keyframes apparition3 {
+
+    100% {
+
+        opacity: 1;
+        transform: none;
+        width: 88%;
+
+    }
 
 }
 
@@ -873,7 +908,8 @@ hr {
     color:white;
     background: black;
     font-size: 2.3em;
-    border: 1px solid white;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.8em white;
 
 }
 
@@ -911,7 +947,8 @@ hr {
     color:white;
     background: black;
     font-size: 2.3em;
-    border: 1px solid white;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.8em white;
 
 }
 
@@ -949,7 +986,8 @@ hr {
     color:white;
     background: black;
     font-size: 2.3em;
-    border: 1px solid white;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.8em white;
 
 }
 
@@ -1042,41 +1080,6 @@ nav {
 .fake_copyright {
 
     color: white;
-
-}
-
-@keyframes apparition {
-
-    100% {
-
-        opacity: 1;
-        transform: none;
-
-    }
-
-}
-
-@keyframes apparition2 {
-
-    100% {
-
-        opacity: 1;
-        transform: none;
-        width: 88%;
-
-    }
-
-}
-
-@keyframes apparition3 {
-
-    100% {
-
-        opacity: 1;
-        transform: none;
-        width: 88%;
-
-    }
 
 }
 
