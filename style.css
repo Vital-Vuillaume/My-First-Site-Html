@@ -63,9 +63,9 @@ body {
 
 }
 
-/* ligne blanche */
+/* première ligne blanche */
 
-hr {
+.ligne1 {
 
     width: 10%;
     color: white;
@@ -107,7 +107,6 @@ hr {
     100% {
 
         opacity: 1;
-        transform: none;
         width: 88%;
 
     }
@@ -1075,6 +1074,17 @@ nav {
 
 }
 
+/*  deuxième ligne blanche */
+
+.ligne2 {
+
+    width: 88%;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: -5%;
+     
+}
+
 /* faux copyright */
 
 .fake_copyright {
@@ -1148,9 +1158,9 @@ nav {
     
     }
 
-    /* ligne blanche */
+    /* première ligne blanche */
 
-    hr {
+    .ligne1 {
 
             width: 88%;
             color: white;
@@ -1187,7 +1197,6 @@ nav {
         100% {
     
             opacity: 1;
-            transform: none;
             width: 100%;
     
         }
@@ -1681,6 +1690,17 @@ nav {
 
     }
 
+    /*  deuxième ligne blanche */
+
+    .ligne2 {
+
+        width: 88%;
+        color: white;
+        margin-bottom: 2%;
+        margin-top: -5%;
+        
+    }
+
     /* faux copyright */
 
     .fake_copyright {
@@ -1738,9 +1758,9 @@ nav {
     
     }
 
-    /* ligne blanche */
+    /* première ligne blanche */
 
-    hr {
+    .ligne1 {
 
         width: 88%;
         color: white;
@@ -1777,7 +1797,6 @@ nav {
         100% {
     
             opacity: 1;
-            transform: none;
             width: 100%;
     
         }
@@ -2271,6 +2290,17 @@ nav {
 
     }
 
+    /*  deuxième ligne blanche */
+
+    .ligne2 {
+
+        width: 88%;
+        color: white;
+        margin-bottom: 2%;
+        margin-top: -5%;
+        
+    }
+    
     /* faux copyright */
 
     .fake_copyright {
