@@ -1256,6 +1256,21 @@ nav {
         line-height: 90%;
         margin-right: 10%;
         position: absolute;
+        opacity: 0;
+        animation: apparition02 3s 4.5s forwards;
+        transform: translatey(-1000px);
+    
+    }
+
+    @keyframes apparition02 {
+
+        100% {
+    
+            opacity: 1;
+            transform: none;
+
+    
+        }
     
     }
 
@@ -1268,6 +1283,20 @@ nav {
         margin-left: -27%;
         margin-top: 18%;
         margin-bottom: -2%;
+        opacity: 0;
+        animation: apparition03 3s 5s forwards;
+        transform: translateX(-1000px);
+    
+    }
+
+    @keyframes apparition03 {
+
+        100% {
+    
+            opacity: 1;
+            transform: none;
+    
+        }
     
     }
 
@@ -1281,6 +1310,21 @@ nav {
         line-height: 145%;
         margin-bottom: 7%;
         margin-top: -33%;
+        opacity: 0;
+        animation: apparition04 3s 4.5s forwards;
+        transform: translateX(-80px);
+    
+    }
+
+    @keyframes apparition04 {
+
+        100% {
+    
+            opacity: 1;
+            transform: none;
+
+    
+        }
     
     }
 
@@ -1809,10 +1853,23 @@ nav {
 
         margin-top: -3%;
         margin-left: 1%;
-        width: 85.5%;
+        width: 5%;
         height: 135px;
         border-radius: 0%;
+        opacity: 0;
+        animation: apparition01 3s 7s forwards;
 
+    }
+
+    @keyframes apparition01 {
+
+        100% {
+    
+            opacity: 1;
+            width: 85.5%;
+    
+        }
+    
     }
 
     .imgaccueil2 {
@@ -1856,6 +1913,20 @@ nav {
         line-height: 90%;
         margin-right: 10%;
         position: absolute;
+        opacity: 0;
+        animation: apparition02 3s 4.5s forwards;
+        transform: translatey(-1000px);
+    
+    }
+
+    @keyframes apparition02 {
+
+        100% {
+    
+            opacity: 1;
+            transform: none;
+    
+        }
     
     }
 
@@ -1868,6 +1939,20 @@ nav {
         margin-left: -40%;
         margin-top: 25%;
         margin-bottom: -2%;
+        opacity: 0;
+        animation: apparition03 3s 5s forwards;
+        transform: translateX(-1000px);
+    
+    }
+
+    @keyframes apparition03 {
+
+        100% {
+    
+            opacity: 1;
+            transform: none;
+    
+        }
     
     }
 
@@ -1881,6 +1966,21 @@ nav {
         line-height: 140%;
         margin-bottom: 7%;
         margin-top: -40%;
+        opacity: 0;
+        animation: apparition04 3s 4.5s forwards;
+        transform: translateX(-80px);
+    
+    }
+
+    @keyframes apparition04 {
+
+        100% {
+    
+            opacity: 1;
+            transform: none;
+
+    
+        }
     
     }
 
