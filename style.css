@@ -1110,21 +1110,6 @@ nav {
     
     }
 
-    /* grand titre */
-
-    .title {
-
-        color: white;
-        font-size: 400%;
-        text-align: center;
-        background-size: cover;
-        background-position: center;
-        padding: 10px;
-        margin-top: 0;
-        margin-bottom: -8%;
-    
-    }
-
 }
 
 /*//////////////////////////////////////////
@@ -1177,11 +1162,23 @@ nav {
 
     .ligne1 {
 
-        width: 88%;
-        color: white;
-        margin-bottom: 3%;
-        margin-top: -5%;
+            width: 88%;
+            color: white;
+            margin-bottom: 3%;
+            margin-top: -5%;
              
+    }
+
+    @keyframes apparition2 {
+    
+        100% {
+    
+            opacity: 1;
+            transform: none;
+            width: 99.5%;
+    
+        }
+    
     }
 
     /* première image */
@@ -1195,47 +1192,58 @@ nav {
     
     }
 
+    @keyframes apparition3 {
+
+        100% {
+    
+            opacity: 1;
+            width: 100%;
+    
+        }
+    
+    }
+
     /* images des blocs */
 
     .imgaccueil {
 
-        margin-top: -3%;
-        margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
+            margin-top: -3%;
+            margin-left: 1%;
+            width: 88%;
+            height: 160px;
+            border-radius: 0%;
     
-    }
+        }
     
     .imgaccueil2 {
     
-        margin-top: -7%;
-        margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
+            margin-top: -7%;
+            margin-left: 1%;
+            width: 88%;
+            height: 160px;
+            border-radius: 0%;
         
-    }
+        }
     
     .imgaccueil3 {
     
-        margin-top: -2.5%;
-        margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
+            margin-top: -2.5%;
+            margin-left: 1%;
+            width: 88%;
+            height: 160px;
+            border-radius: 0%;
         
-    }
+        }
     
     .imgaccueil4 {
     
-        margin-top: -6%;
-        margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
+            margin-top: -6%;
+            margin-left: 1%;
+            width: 88%;
+            height: 160px;
+            border-radius: 0%;
         
-    }
+        }
 
     /* premier bloc */
 
@@ -1804,6 +1812,18 @@ nav {
         margin-top: -7%;
          
     }
+    
+    @keyframes apparition2 {
+    
+        100% {
+    
+            opacity: 1;
+            transform: none;
+            width: 99.5%;
+    
+        }
+    
+    }
 
     /* première image */
 
@@ -1813,6 +1833,17 @@ nav {
         height: 105px;
         margin-bottom: -23%;
         border-radius: 0%;
+    
+    }
+
+    @keyframes apparition3 {
+
+        100% {
+    
+            opacity: 1;
+            width: 100%;
+    
+        }
     
     }
 
@@ -2332,7 +2363,7 @@ nav {
         position: fixed;
         width: 99.3%;
         height: 35px;
-        top: -80px;
+        top: -80px;;
         border: 1.8px solid white;
         display: flex;
         justify-content: space-around;
@@ -2344,7 +2375,7 @@ nav {
 
         color: white;
         font-size: 1.5em; 
-        margin-top: 1px; 
+        margin-top: 0px; 
         margin-left: 7.5px;
         
     }
