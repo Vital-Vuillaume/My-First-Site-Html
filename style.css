@@ -2332,7 +2332,7 @@ nav {
         position: fixed;
         width: 99.3%;
         height: 35px;
-        top: -80px;;
+        top: -80px;
         border: 1.8px solid white;
         display: flex;
         justify-content: space-around;
@@ -2344,7 +2344,7 @@ nav {
 
         color: white;
         font-size: 1.5em; 
-        margin-top: 0px; 
+        margin-top: 1px; 
         margin-left: 7.5px;
         
     }
