@@ -98,7 +98,7 @@ body {
     margin-bottom: 5%;
     border-radius: 20px 20px 20px 20px;
     opacity: 0;
-    animation: apparition2 4s 3s forwards;
+    animation: apparition3 4s 3s forwards;
 
 }
 
@@ -1162,14 +1162,17 @@ nav {
 
     .ligne1 {
 
-            width: 88%;
-            color: white;
-            margin-bottom: 3%;
-            margin-top: -5%;
-             
+        width: 88%;
+        color: white;
+        margin-bottom: 3%;
+        margin-top: -5%;
+        opacity: 0;
+        transform: translateX(-525px);
+        animation: apparition001 4s 3s forwards;
+         
     }
-
-    @keyframes apparition2 {
+    
+    @keyframes apparition001 {
     
         100% {
     
@@ -1179,7 +1182,7 @@ nav {
     
         }
     
-    }
+    }            
 
     /* première image */
 
@@ -1189,6 +1192,19 @@ nav {
         height: 130px;
         margin-bottom: -13%;
         border-radius: 0%;
+        opacity: 0;
+        animation: apparition002 4s 3s forwards;
+    
+    }
+
+    @keyframes apparition002 {
+
+        100% {
+    
+            opacity: 1;
+            width: 99.5%;
+    
+        }
     
     }
 
@@ -1196,43 +1212,43 @@ nav {
 
     .imgaccueil {
 
-            margin-top: -3%;
-            margin-left: 1%;
-            width: 88%;
-            height: 160px;
-            border-radius: 0%;
+        margin-top: -3%;
+        margin-left: 1%;
+        width: 88%;
+        height: 160px;
+        border-radius: 0%;
     
-        }
+    }
     
     .imgaccueil2 {
     
-            margin-top: -7%;
-            margin-left: 1%;
-            width: 88%;
-            height: 160px;
-            border-radius: 0%;
+        margin-top: -7%;
+        margin-left: 1%;
+        width: 88%;
+        height: 160px;
+        border-radius: 0%;
         
-        }
+    }
     
     .imgaccueil3 {
     
-            margin-top: -2.5%;
-            margin-left: 1%;
-            width: 88%;
-            height: 160px;
-            border-radius: 0%;
+        margin-top: -2.5%;
+        margin-left: 1%;
+        width: 88%;
+        height: 160px;
+        border-radius: 0%;
         
-        }
+    }
     
     .imgaccueil4 {
     
-            margin-top: -6%;
-            margin-left: 1%;
-            width: 88%;
-            height: 160px;
-            border-radius: 0%;
+        margin-top: -6%;
+        margin-left: 1%;
+        width: 88%;
+        height: 160px;
+        border-radius: 0%;
         
-        }
+    }
 
     /* premier bloc */
 
@@ -1246,12 +1262,12 @@ nav {
         margin-right: 10%;
         position: absolute;
         opacity: 0;
-        animation: apparition02 3s 4.5s forwards;
+        animation: apparition003 3s 4.5s forwards;
         transform: translatey(-1000px);
     
     }
 
-    @keyframes apparition02 {
+    @keyframes apparition003 {
 
         100% {
     
@@ -1273,12 +1289,12 @@ nav {
         margin-top: 18%;
         margin-bottom: -2%;
         opacity: 0;
-        animation: apparition03 3s 5s forwards;
+        animation: apparition004 3s 5s forwards;
         transform: translateX(-1000px);
     
     }
 
-    @keyframes apparition03 {
+    @keyframes apparition004 {
 
         100% {
     
@@ -1300,12 +1316,12 @@ nav {
         margin-bottom: 7%;
         margin-top: -33%;
         opacity: 0;
-        animation: apparition04 3s 4.5s forwards;
+        animation: apparition005 3s 4.5s forwards;
         transform: translateX(-80px);
     
     }
 
-    @keyframes apparition04 {
+    @keyframes apparition005 {
 
         100% {
     
@@ -1799,9 +1815,24 @@ nav {
         color: white;
         margin-bottom: 3%;
         margin-top: -7%;
+        opacity: 0;
+        transform: translateX(-525px);
+        animation: apparition01 4s 3s forwards;
          
     }
-
+    
+    @keyframes apparition01 {
+    
+        100% {
+    
+            opacity: 1;
+            transform: none;
+            width: 99.5%;
+    
+        }
+    
+    }
+         
     /* première image */
 
     .imgtech {
@@ -1810,6 +1841,19 @@ nav {
         height: 105px;
         margin-bottom: -23%;
         border-radius: 0%;
+        opacity: 0;
+        animation: apparition02 4s 3s forwards;
+    
+    }
+
+    @keyframes apparition02 {
+
+        100% {
+    
+            opacity: 1;
+            width: 99.5%;
+    
+        }
     
     }
 
@@ -1823,11 +1867,11 @@ nav {
         height: 135px;
         border-radius: 0%;
         opacity: 0;
-        animation: apparition01 3s 7s forwards;
+        animation: apparition03 3s 7s forwards;
 
     }
 
-    @keyframes apparition01 {
+    @keyframes apparition03 {
 
         100% {
     
@@ -1880,12 +1924,12 @@ nav {
         margin-right: 10%;
         position: absolute;
         opacity: 0;
-        animation: apparition02 3s 4.5s forwards;
+        animation: apparition04 3s 4.5s forwards;
         transform: translatey(-1000px);
     
     }
 
-    @keyframes apparition02 {
+    @keyframes apparition04 {
 
         100% {
     
@@ -1906,12 +1950,12 @@ nav {
         margin-top: 25%;
         margin-bottom: -2%;
         opacity: 0;
-        animation: apparition03 3s 5s forwards;
+        animation: apparition05 3s 5s forwards;
         transform: translateX(-1000px);
     
     }
 
-    @keyframes apparition03 {
+    @keyframes apparition05 {
 
         100% {
     
@@ -1933,12 +1977,12 @@ nav {
         margin-bottom: 7%;
         margin-top: -40%;
         opacity: 0;
-        animation: apparition04 3s 4.5s forwards;
+        animation: apparition06 3s 4.5s forwards;
         transform: translateX(-80px);
     
     }
 
-    @keyframes apparition04 {
+    @keyframes apparition06 {
 
         100% {
     
