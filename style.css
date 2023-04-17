@@ -1192,17 +1192,6 @@ nav {
     
     }
 
-    @keyframes apparition3 {
-
-        100% {
-    
-            opacity: 1;
-            width: 100%;
-    
-        }
-    
-    }
-
     /* images des blocs */
 
     .imgaccueil {
@@ -1812,18 +1801,6 @@ nav {
         margin-top: -7%;
          
     }
-    
-    @keyframes apparition2 {
-    
-        100% {
-    
-            opacity: 1;
-            transform: none;
-            width: 99.5%;
-    
-        }
-    
-    }
 
     /* première image */
 
@@ -1833,17 +1810,6 @@ nav {
         height: 105px;
         margin-bottom: -23%;
         border-radius: 0%;
-    
-    }
-
-    @keyframes apparition3 {
-
-        100% {
-    
-            opacity: 1;
-            width: 100%;
-    
-        }
     
     }
 
@@ -2375,7 +2341,7 @@ nav {
 
         color: white;
         font-size: 1.5em; 
-        margin-top: 0px; 
+        margin-top: 1px; 
         margin-left: 7.5px;
         
     }
