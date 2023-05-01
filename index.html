@@ -177,9 +177,18 @@
     <!--barre de scroll-->
 
     <nav>
-        <button class="scrollbouton" onclick="window.location.href='contact.html';" ><p class="scroll">Contact</p></button><br>
-        <button class="scrollbouton" onclick="window.location.href='projets.html';" ><p class="scroll">Projets</p></button><br>
-        <button class="scrollbouton" onclick="window.location.href='source.html';" ><p class="scroll">Sources</p></button><br>
+        <div>
+            <button class="scrollbouton" onclick="window.location.href='contact.html';" ><p class="scroll">Contact</p></button><br>
+        </div> 
+        
+        <div>
+            <button class="scrollbouton" onclick="window.location.href='projets.html';" ><p class="scroll">Projets</p></button><br>
+        </div>
+        
+        <div>
+            <button class="scrollbouton" onclick="window.location.href='source.html';" ><p class="scroll">Sources</p></button><br>
+        </div>
+
         <div id="audio-player">
             <img id="pause-btn" src="son-désactiver.png">
         </div>
@@ -188,7 +197,7 @@
     <!--muisque-->
 
     <div>
-        <audio id="my-audio" src="musique.mp3"></audio>
+        <audio loop id="my-audio" src="musique.mp3"></audio>
     </div>
 
     <!--faux copyright-->
