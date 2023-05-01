@@ -1054,7 +1054,7 @@ nav {
     color: rgb(165, 159, 159);
     font-size: 3em; 
     margin-top: -15px; 
-    margin-left: 100px;
+    margin-left: 150px;
     
 }
 
@@ -1071,6 +1071,31 @@ nav {
     border: none;
     background: none;
     font-family: 'Secular One', sans-serif;
+
+}
+
+/*musique*/
+
+#audio-player {
+
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pause-btn {
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(son-désactiver.png);
+    cursor: pointer;
 
 }
 
@@ -1187,6 +1212,56 @@ nav {
     
         }
     
+    }
+
+    .paratitre {
+
+        text-align: left;
+        color: white;
+        font-size: 1.8em;
+        margin-top: -4.5%;
+        line-height: 90%;
+        margin-right: 40%;
+
+    }
+
+    .logo-holder1 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -60%;
+        margin-top: 15%;
+        margin-bottom: -2%;
+    
+    }
+
+
+    .paragraphe {
+
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.8em;
+        line-height: 145%;
+        margin-bottom: 7%;
+        margin-top: -33%;
+    
+    }
+
+    .bar {
+
+        position: relative;
+        height: 5.5px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 4.5px;
+        box-shadow: 0 0 3px white;
+        
     }
 
 }
@@ -1815,6 +1890,31 @@ nav {
         border: none;
         background: none;
         font-family: 'Secular One', sans-serif;
+
+    }
+
+    /*musique*/
+
+    #audio-player {
+
+        margin-top: -2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #pause-btn {
+
+        width: 28px;
+        height: 28px;
+        border: none;
+        outline: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(son-désactiver.png);
+        cursor: pointer;
 
     }
 
@@ -2453,7 +2553,7 @@ nav {
         width: 99.3%;
         height: 35px;
         top: -80px;;
-        border: 1.8px solid white;
+        border: 1.7px solid white;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -2463,8 +2563,8 @@ nav {
     .scroll {
 
         color: white;
-        font-size: 1.5em; 
-        margin-top: 1px; 
+        font-size: 1.4em; 
+        margin-top: 2px; 
         margin-left: 7.5px;
         
     }
@@ -2477,6 +2577,31 @@ nav {
         background: none;
         font-family: 'Secular One', sans-serif;
 
+    }
+
+    /*musique*/
+
+    #audio-player {
+
+        margin-top: -1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    #pause-btn {
+    
+        width: 25px;
+        height: 25px;
+        border: none;
+        outline: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(son-désactiver.png);
+        cursor: pointer;
+    
     }
 
     /*  deuxième ligne blanche */

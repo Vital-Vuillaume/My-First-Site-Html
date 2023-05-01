@@ -20,3 +20,18 @@ window.addEventListener('scroll',() => {
         nav.style.top = "-80px";
     }
 });
+
+//musique 
+
+var audio = document.getElementById("my-audio");
+var pauseBtn = document.getElementById("pause-btn");
+
+pauseBtn.addEventListener("click", function() {
+  if (audio.paused) {
+    audio.play();
+    pauseBtn.style.backgroundImage = "url(son-activer.png)";
+  } else {
+    audio.pause();
+    pauseBtn.style.backgroundImage = "url(son-désactiver.png)";
+  }
+})
