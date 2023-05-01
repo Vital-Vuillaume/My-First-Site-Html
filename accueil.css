@@ -30,7 +30,7 @@ body {
     margin-top: 0;
     margin-bottom: -4%;
     opacity: 0;
-    transform: translateX(-60px);
+    transform: translateX(-300px);
     animation: apparition1 3s 2s ease-out forwards;
 
 }
@@ -58,9 +58,8 @@ body {
     margin-top: 3%;
     margin-bottom: -1%;
     opacity: 0;
+    transform: translateY(-80px);
     animation: apparition2 2.7s 1.7s ease-out forwards;
-    transform: translateY(-60px);
-
 
 }
 
@@ -85,11 +84,11 @@ body {
     margin-top: -5%;
     opacity: 0;
     transform: translateX(-525px);
-    animation: apparition2 4s 3s forwards;
+    animation: apparition3 4s 3s forwards;
      
 }
 
-@keyframes apparition2 {
+@keyframes apparition3 {
 
     100% {
 
@@ -110,11 +109,11 @@ body {
     margin-bottom: 5%;
     border-radius: 20px 20px 20px 20px;
     opacity: 0;
-    animation: apparition3 4s 3s forwards;
+    animation: apparition4 4s 3s forwards;
 
 }
 
-@keyframes apparition3 {
+@keyframes apparition4 {
 
     100% {
 
