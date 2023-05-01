@@ -1,0 +1,38 @@
+//pour que le site soit securise
+
+if (window.location.protocol != "https:") {
+   window.location.protocol="https:";
+}
+
+//pour voir si la console fonctionne
+
+console.log("Bonjour la console");
+
+//barre de scroll
+
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll',() => {
+
+    if (window.scrollY > 120) {
+        nav.style.top = 0;
+    } else {
+        nav.style.top = "-80px";
+    }
+});
+
+//musique 
+
+var audio = document.getElementById("my-audio");
+var pauseBtn = document.getElementById("pause-btn");
+
+pauseBtn.addEventListener("click", function() {
+
+    if (audio.paused) {
+        audio.play();
+        pauseBtn.src="son-activer.png";
+    } else {
+        audio.pause();
+        pauseBtn.src="son-désactiver.png";
+    }
+});
