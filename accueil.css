@@ -910,6 +910,7 @@ body {
     transition: 0.3s;
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
+    cursor: pointer;
 
 }
 
@@ -949,6 +950,7 @@ body {
     transition: 0.3s;
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
+    cursor: pointer;
 
 }
 
@@ -988,6 +990,7 @@ body {
     transition: 0.3s;
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
+    cursor: pointer;
 
 }
 
@@ -1022,6 +1025,7 @@ body {
     transition: 0.3s;
     margin-bottom: 15%;
     margin-top: 3%;
+    cursor: pointer;
 
 }
 
@@ -1066,6 +1070,7 @@ nav {
     font-size: 3em; 
     margin-top: -15px; 
     margin-left: 150px;
+    cursor: pointer;
     
 }
 
@@ -1105,7 +1110,6 @@ nav {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(son-désactiver.png);
     cursor: pointer;
 
 }
