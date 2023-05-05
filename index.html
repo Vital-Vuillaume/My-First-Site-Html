@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="YxVxpieKGYwp63h7YgM8TaLy5JxuyLUCoMuQq-mP2RI" />
     <link rel="stylesheet" href="accueil.css" />
     <script defer src="accueil.js"></script>
@@ -13,9 +14,17 @@
 
 <body>
     <header>
-        <h1 class="title2">DESIGNÉ PAR VITAL</h1>
-        <h1 class="title">GAMING</h1>
-        <hr class="ligne1">
+        <div>
+            <h1 class="title2">DESIGNÉ PAR VITAL</h1>
+        </div>
+
+        <div>
+            <h1 class="title">GAMING</h1>
+        </div>
+
+        <div>
+            <hr class="ligne1">
+        </div>
     </header>
 
     <!--première image-->
@@ -188,23 +197,18 @@
         <div>
             <button class="scrollbouton" onclick="window.location.href='source.html';" ><p class="scroll">Sources</p></button><br>
         </div>
-
-        <div id="audio-player">
-            <img id="pause-btn" src="son-désactiver.png">
-        </div>
     </nav>
-    
-    <!--muisque-->
-
-    <div>
-        <audio loop id="my-audio" src="musique.mp3"></audio>
-    </div>
-
-    <!--faux copyright-->
 
     <footer>
-        <hr class="ligne2">
-        <p class="fake_copyright">ⓒ 2023 - Vital production</p>
+        <div>
+            <hr class="ligne2">
+        </div>
+
+        <!--fake copyright-->
+
+        <div>
+            <p class="fakecopyright">ⓒ 2023 - Vital production</p>
+        </div>
     </footer>
 </body>
 
