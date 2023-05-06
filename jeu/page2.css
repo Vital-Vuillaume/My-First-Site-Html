@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    background-image: url(back.png);
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.title2 {
+
+    padding: 61px;
+    margin-top: 0;
+    font-size: 570%;
+    text-align: center;
+    background-size: cover;
+    color: rgb(92, 184, 153);
+    background-position: center;
+    background-image: url(banner.png);
+
+}
+
+.games {
+
+    border-radius: 70px;
+    margin-bottom: 10px;
+    border: 7px solid black;
+    box-shadow: 20px 20px 20px black;
+
+}
+
+.para-jeux {
+
+    font-size: 155%;
+    padding: 30px; 
+    margin-left: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 100px;
+    background-color: #008a8a;
+
+}
