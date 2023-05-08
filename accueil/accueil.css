@@ -197,7 +197,7 @@ body {
     text-align: left;
     margin-left: 22%;
     margin-right: 15%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 160%;
     margin-bottom: 5%;
     margin-top: -3.5%;
@@ -235,7 +235,7 @@ body {
     text-align: left;
     margin-left: 22%;
     margin-right: 15%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 160%;
     margin-bottom: 1%;
     margin-top: -3.5%;
@@ -273,7 +273,7 @@ body {
     text-align: left;
     margin-left: 22%;
     margin-right: 15%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 160%;
     margin-bottom: 1%;
     margin-top: -3.5%;
@@ -311,7 +311,7 @@ body {
     text-align: left;
     margin-left: 22%;
     margin-right: 15%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 160%;
     margin-bottom: 1%;
     margin-top: -3.5%;
@@ -1360,9 +1360,22 @@ nav {
 
         margin-top: -3%;
         margin-left: 1%;
-        width: 88%;
+        width: 5%;
         height: 160px;
         border-radius: 0%;
+        opacity: 0;
+        animation: apparition003 3s 7s forwards;
+
+    }
+
+    @keyframes apparition003 {
+
+        100% {
+    
+            opacity: 1;
+            width: 88%;
+    
+        }
     
     }
     
@@ -1408,12 +1421,12 @@ nav {
         margin-right: 10%;
         position: absolute;
         opacity: 0;
-        animation: apparition003 3s 4.5s forwards;
+        animation: apparition004 3s 4.5s forwards;
         transform: translatey(-1000px);
     
     }
 
-    @keyframes apparition003 {
+    @keyframes apparition004 {
 
         100% {
     
@@ -1435,12 +1448,12 @@ nav {
         margin-top: 18%;
         margin-bottom: -2%;
         opacity: 0;
-        animation: apparition004 3s 5s forwards;
+        animation: apparition005 3s 5s forwards;
         transform: translateX(-1000px);
     
     }
 
-    @keyframes apparition004 {
+    @keyframes apparition005 {
 
         100% {
     
@@ -1462,12 +1475,12 @@ nav {
         margin-bottom: 7%;
         margin-top: -33%;
         opacity: 0;
-        animation: apparition005 3s 4.5s forwards;
+        animation: apparition006 3s 4.5s forwards;
         transform: translateX(-80px);
     
     }
 
-    @keyframes apparition005 {
+    @keyframes apparition006 {
 
         100% {
     
