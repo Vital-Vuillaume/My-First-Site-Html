@@ -1821,6 +1821,16 @@ nav {
     
     }
 
+    .jeux:hover {
+
+        color: white;
+        font-size: 1.2em;
+        background-color: black;
+        border: 1px solid  white;
+        box-shadow: none;
+
+    }
+
     /* bouton console */
 
     .jeux2 { 
@@ -1835,6 +1845,16 @@ nav {
         width: 82%;
         height: 60%;
     
+    }
+
+    .jeux2:hover {
+
+        color: white;
+        font-size: 1.2em;
+        background-color: black;
+        border: 1px solid  white;
+        box-shadow: none;
+
     }
 
     /* bouton manette */
@@ -1853,6 +1873,16 @@ nav {
     
     }
 
+    .jeux3:hover {
+
+        color: white;
+        font-size: 1.2em;
+        background-color: black;
+        border: 1px solid  white;
+        box-shadow: none;
+
+    }
+
     /* bouton github */ 
 
     .git {
@@ -1860,6 +1890,12 @@ nav {
         width: 22%;
         margin-bottom: 5%;
         margin-top: -1%;
+    
+    }
+
+    .git:hover  {
+
+        width: 22%;
     
     }
 
@@ -2482,6 +2518,16 @@ nav {
     
     }
 
+    .jeux:hover {
+
+        color: white;
+        font-size: 1.2em;
+        box-shadow: none;
+        background-color: black;
+        border: 1px solid  white;
+
+    }
+
     /* bouton console */
 
     .jeux2 { 
@@ -2496,6 +2542,16 @@ nav {
         width: 93%;
         height: 60%;
     
+    }
+
+    .jeux2:hover {
+
+        color: white;
+        font-size: 1.2em;
+        box-shadow: none;
+        background-color: black;
+        border: 1px solid  white;
+
     }
 
     /* bouton manette */
@@ -2514,6 +2570,16 @@ nav {
     
     }
 
+    .jeux3:hover {
+
+        color: white;
+        font-size: 1.2em;
+        box-shadow: none;
+        background-color: black;
+        border: 1px solid  white;
+
+    }
+
     /* bouton github */ 
 
     .git {
@@ -2521,6 +2587,12 @@ nav {
         width: 20%;
         margin-bottom: 3%;
         margin-top: -1%;
+    
+    }
+
+    .git:hover {
+
+        width: 20%;
     
     }
 
