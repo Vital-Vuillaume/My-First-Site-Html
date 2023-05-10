@@ -1139,6 +1139,8 @@ nav {
         padding: 10px;
         margin-top: 0;
         margin-bottom: -8%;
+        transform: none;
+        opacity: 1;
     
     }
 
@@ -1153,6 +1155,8 @@ nav {
         background-position: center;
         margin-top: 3%;
         margin-bottom: -4%;
+        transform: none;
+        opacity: 1;
     
     }
 
@@ -1160,50 +1164,27 @@ nav {
 
     .ligne1 {
 
-        width: 88%;
+        width: 99.5%;
         color: white;
         margin-bottom: 4%;
         margin-top: -8%;
-        opacity: 0;
-        transform: translateX(-525px);
-        animation: apparition0001 4s 3s forwards;
+        opacity: 1;
+        transform: none;
+        animation: none;
          
-    }
-    
-    @keyframes apparition0001 {
-    
-        100% {
-    
-            opacity: 1;
-            transform: none;
-            width: 99.5%;
-    
-        }
-    
     }
     
     /* première image */
 
     .imgtech {
 
-        width: 5%;
+        width: 100%;
         height: 160px;
         margin-bottom: -13%;
         border-radius: 0%;
-        opacity: 0;
-        animation: apparition0002 4s 3s forwards;
-    
-    }
+        opacity: 1;
+        animation: none;
 
-    @keyframes apparition0002 {
-
-        100% {
-    
-            opacity: 1;
-            width: 100%;
-    
-        }
-    
     }
 
     .paratitre {
@@ -1287,8 +1268,6 @@ nav {
         padding: 10px;
         margin-top: 0;
         margin-bottom: -8%;
-        transform: none;
-        opacity: 1;
     
     }
 
@@ -1303,8 +1282,6 @@ nav {
         background-position: center;
         margin-top: 3%;
         margin-bottom: -4%;
-        transform: none;
-        opacity: 1;
     
     }
 
@@ -1315,9 +1292,6 @@ nav {
         width: 99.5%;
         color: white;
         margin-bottom: 3%;
-        margin-top: -5%;
-        opacity: 1;
-        transform: none;
          
     }          
 
@@ -1329,8 +1303,6 @@ nav {
         height: 130px;
         margin-bottom: -13%;
         border-radius: 0%;
-        opacity: 1;
-        animation: none;
     
     }
 
@@ -1409,7 +1381,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.8em;
-        line-height: 145%;
+        line-height: 165%;
         margin-bottom: 7%;
         margin-top: -33%;
     
@@ -1447,7 +1419,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.8em;
-        line-height: 145%;
+        line-height: 165%;
         margin-bottom: 0%;
         margin-top: -35%;
     
@@ -1485,7 +1457,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.8em;
-        line-height: 145%;
+        line-height: 165%;
         margin-bottom: 1%;
         margin-top: -35%;
     
@@ -1523,7 +1495,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.8em;
-        line-height: 145%;
+        line-height: 165%;
         margin-bottom: 0%;
         margin-top: -35%;
     
@@ -2024,7 +1996,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.7em;
-        line-height: 140%;
+        line-height: 150%;
         margin-bottom: 7%;
         margin-top: -40%;
     
@@ -2062,7 +2034,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.7em;
-        line-height: 140%;
+        line-height: 150%;
         margin-bottom: 1.7%;
         margin-top: -45%;
     
@@ -2100,7 +2072,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.7em;
-        line-height: 140%;
+        line-height: 150%;
         margin-bottom: 2%;
         margin-top: -45%;
     
@@ -2138,7 +2110,7 @@ nav {
         margin-left: 7%;
         margin-right: 6.2%;
         font-size: 0.7em;
-        line-height: 140%;
+        line-height: 150%;
         margin-bottom: 2%;
         margin-top: -45%;
     
