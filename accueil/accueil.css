@@ -1118,7 +1118,7 @@ nav {
 
     body {
 
-        background-color: red;
+        background-color: black;
         background-size: cover;
         background-position: center;
         margin: 0;
@@ -1187,14 +1187,58 @@ nav {
 
     }
 
+    /* images des blocs */
+
+    .imgaccueil {
+
+        margin-top: -3%;
+        margin-left: 1%;
+        width: 88%;
+        height: 180px;
+        border-radius: 0%;
+
+    }
+    
+    .imgaccueil2 {
+    
+        margin-top: -7%;
+        margin-left: 1%;
+        width: 88%;
+        height: 180px;
+        border-radius: 0%;
+        
+    }
+    
+    .imgaccueil3 {
+    
+        margin-top: -2.5%;
+        margin-left: 1%;
+        width: 88%;
+        height: 180px;
+        border-radius: 0%;
+        
+    }
+    
+    .imgaccueil4 {
+    
+        margin-top: -6%;
+        margin-left: 1%;
+        width: 88%;
+        height: 180px;
+        border-radius: 0%;
+        
+    }
+
+    /* premier bloc */
+
     .paratitre {
 
         text-align: left;
         color: white;
-        font-size: 1.8em;
+        font-size: 1.899em;
         margin-top: -4.5%;
         line-height: 90%;
-        margin-right: 40%;
+        margin-right: 44%;
 
     }
 
@@ -1209,20 +1253,58 @@ nav {
         margin-bottom: -2%;
     
     }
-
-
-    .paragraphe {
+    
+    .paragraphe {   
 
         color: white;
         text-align: left;
         margin-left: 7%;
         margin-right: 6.2%;
-        font-size: 0.8em;
-        line-height: 145%;
+        font-size: 0.899em;
+        line-height: 160%;
         margin-bottom: 7%;
-        margin-top: -33%;
+        margin-top: -25.3%;
     
     }
+
+    /* deuxième bloc */
+
+    .paratitre2 {
+
+        text-align: left;
+        color: white;
+        font-size: 1.899em;
+        margin-top: -18%;
+        line-height: 90%;
+        margin-right: 10%;
+    
+    }
+
+    .logo-holder2 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -60%;
+        margin-top: 3%;
+    
+    }
+
+    .paragraphe2 {
+
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.899em;
+        line-height: 160%;
+        margin-bottom: 0%;
+        margin-top: -35%;
+    
+    }
+
+    /* premiere animation */
 
     .bar {
 
@@ -1235,6 +1317,165 @@ nav {
         margin-top: 4.5px;
         box-shadow: 0 0 3px white;
         
+    }
+
+    @keyframes fill-1 {
+
+        0%   { width: 0;}
+        33%  { width: 50px;}
+        66%  { width: 30px;}
+        100% { width: 86px;}
+    
+    }
+    
+    @keyframes fill-2 {
+     
+        0%   { width: 0;}
+        33%  { width: 60px;}
+        66%  { width: 8px;}
+        100% { width: 70px;}
+    
+    }
+    
+    @keyframes fill-3 {
+    
+        0%   { width: 0;}
+        33%  { width: 30px;}
+        66%  { width: 10px;}
+        100% { width: 80px;}
+    
+    }
+    
+    @keyframes fill-4 {
+    
+        0%   { width: 0; }
+        33%  { width: 61px;}
+        66%  { width: 24px;}
+        100% { width: 63px;}
+    
+    }
+    
+    @keyframes fill-5 {
+    
+        0%   { width: 0;}
+        33%  { width: 70px;}
+        66%  { width: 34px;}
+        100% { width: 85px;}
+    
+    }
+    
+    @keyframes fill-6 {
+    
+        0%   { width: 0;}
+        33%  { width: 52px;}
+        66%  { width: 30px;}
+        100% { width: 65px;}
+    
+    }
+    
+    @keyframes fill-7 {
+    
+        0%   { width: 0;}
+        33%  { width: 36px;}
+        66%  { width: 22px;}
+        100% { width: 68px;}
+    
+    }
+    
+    @keyframes fill-8 {
+    
+        0%   { width: 0;}
+        33%  { width: 50px;}
+        66%  { width: 20px;}
+        100% { width: 89px;}
+    
+    }
+
+    /* deuxième animation */
+
+    .bar2 {
+
+        position: relative;
+        height: 5.5px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 4.5px;
+        box-shadow: 0 0 3px white;
+        
+    }
+
+    @keyframes fill-9 {
+
+        0%   { width: 0;}
+        33%  { width: 30px;}
+        66%  { width: 10px;}
+        100% { width: 82px;}
+    
+    }
+    
+    @keyframes fill-10 {
+    
+        0%   { width: 0;}
+        33%  { width: 50px;}
+        66%  { width: 20px;}
+        100% { width: 42px;}
+    
+    }
+    
+    @keyframes fill-11 {
+    
+        0%   { width: 0;}
+        33%  { width: 71px;}
+        66%  { width: 42px;}
+        100% { width: 70px;}
+    
+    }
+    
+    @keyframes fill-12 {
+    
+        0%   { width: 0; }
+        33%  { width: 50px;}
+        66%  { width: 24px;}
+        100% { width: 49px;}
+    
+    }
+    
+    @keyframes fill-13 {
+    
+        0%   { width: 0;}
+        33%  { width: 60px;}
+        66%  { width: 34px;}
+        100% { width: 54px;}
+      
+    }
+    
+    @keyframes fill-14 {
+    
+        0%   { width: 0;}
+        33%  { width: 30px;}
+        66%  { width: 10px;}
+        100% { width: 62px;}
+    
+    }
+    
+    @keyframes fill-15 {
+    
+        0%   { width: 0;}
+        33%  { width: 48px;}
+        66%  { width: 22px;}
+        100% { width: 84px;}
+    
+    }
+    
+    @keyframes fill-16 {
+    
+        0%   { width: 0;}
+        33%  { width: 65px;}
+        66%  { width: 22px;}
+        100% { width: 56px;}
+    
     }
 
 }
