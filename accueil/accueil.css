@@ -907,7 +907,7 @@ body {
     border: 1px solid  rgb(165, 159, 159);
     border-radius: 70px 70px 70px 70px;
     padding: 10px;
-    transition: 0.3s;
+    transition: 0.5s;
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
     cursor: pointer;
@@ -947,7 +947,7 @@ body {
     border: 1px solid  rgb(165, 159, 159);
     border-radius: 70px 70px 70px 70px;
     padding: 10px;
-    transition: 0.3s;
+    transition: 0.5s;
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
     cursor: pointer;
@@ -987,7 +987,7 @@ body {
     border: 1px solid  rgb(165, 159, 159);
     border-radius: 70px 70px 70px 70px;
     padding: 10px;
-    transition: 0.3s;
+    transition: 0.5s;
     margin-top: 0;
     font-family: 'Secular One', sans-serif;
     cursor: pointer;
@@ -1022,7 +1022,7 @@ body {
 .git {
 
     width: 30%;
-    transition: 0.3s;
+    transition: 0.5s;
     margin-bottom: 15%;
     margin-top: 3%;
     cursor: pointer;
@@ -1066,17 +1066,31 @@ nav {
 
 .scroll {
 
-    color: rgb(165, 159, 159);
+    color: white;
     font-size: 3em; 
     margin-top: -15px; 
     margin-left: 5px;
     cursor: pointer;
+    transition: 0.5s; 
     
 }
 
-.scroll:hover {
+.scroll::after {
 
-    color: white;
+    content: "";
+    width: 100%;
+    height: 2px;
+    margin-top: -8%;
+    display: block;
+    background: white;
+    transform: scale(0);
+    transition: transform 0.4s ease-in-out;
+   
+}
+
+.scroll:hover::after {
+
+    transform: scale(1);
 
 }
 
@@ -1189,43 +1203,39 @@ nav {
 
     /* images des blocs */
 
+    .imgaccueil, .imgaccueil2, .imgaccueil3, .imgaccueil4 {
+
+        width: 88%;
+        height: 180px;
+        border-radius: 0%;
+
+    }
+
     .imgaccueil {
 
         margin-top: -3%;
         margin-left: 1%;
-        width: 88%;
-        height: 180px;
-        border-radius: 0%;
 
     }
     
     .imgaccueil2 {
     
-        margin-top: -7%;
+        margin-top: 2%;
         margin-left: 1%;
-        width: 88%;
-        height: 180px;
-        border-radius: 0%;
         
     }
     
     .imgaccueil3 {
     
-        margin-top: -2.5%;
+        margin-top: 2%;
         margin-left: 1%;
-        width: 88%;
-        height: 180px;
-        border-radius: 0%;
         
     }
     
     .imgaccueil4 {
     
-        margin-top: -6%;
+        margin-top: 2%;
         margin-left: 1%;
-        width: 88%;
-        height: 180px;
-        border-radius: 0%;
         
     }
 
@@ -1238,7 +1248,7 @@ nav {
         font-size: 1.899em;
         margin-top: -4.5%;
         line-height: 90%;
-        margin-right: 44%;
+        margin-right: 40%;
 
     }
 
@@ -1248,7 +1258,7 @@ nav {
         height: 220px;
         position: relative;
         margin: 0 auto ;
-        margin-left: -60%;
+        margin-left: -65%;
         margin-top: 15%;
         margin-bottom: -2%;
     
@@ -1260,7 +1270,7 @@ nav {
         text-align: left;
         margin-left: 7%;
         margin-right: 6.2%;
-        font-size: 0.899em;
+        font-size: 0.96em;
         line-height: 160%;
         margin-bottom: 7%;
         margin-top: -25.3%;
@@ -1276,7 +1286,7 @@ nav {
         font-size: 1.899em;
         margin-top: -18%;
         line-height: 90%;
-        margin-right: 10%;
+        margin-right: 6%;
     
     }
 
@@ -1286,7 +1296,7 @@ nav {
         height: 220px;
         position: relative;
         margin: 0 auto ;
-        margin-left: -60%;
+        margin-left: -65%;
         margin-top: 3%;
     
     }
@@ -1297,11 +1307,85 @@ nav {
         text-align: left;
         margin-left: 7%;
         margin-right: 6.2%;
-        font-size: 0.899em;
+        font-size: 0.96em;
         line-height: 160%;
-        margin-bottom: 0%;
-        margin-top: -35%;
+        margin-bottom: 1%;
+        margin-top: -27%;
     
+    }
+
+    /* troisieme bloc */
+
+    .paratitre3 {
+
+        text-align: left;
+        color: white;
+        font-size: 1.899em;
+        margin-top: -19%;
+        line-height: 90%;
+        margin-right: 8%;
+        
+    }
+       
+    .logo-holder3 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -65%;
+        margin-top: 3%;
+    
+    }
+    
+    .paragraphe3 {
+    
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.96em;
+        line-height: 160%;
+        margin-bottom: 1%;
+        margin-top: -27%;
+        
+    }
+
+    /* quatrieme bloc */
+
+    .paratitre4 {
+
+        text-align: left;
+        color: white;
+        font-size: 1.899em;
+        margin-top: -19%;
+        line-height: 90%;
+        margin-right: 28%;
+        
+    }
+       
+    .logo-holder4 {
+
+        width: 180px;
+        height: 220px;
+        position: relative;
+        margin: 0 auto ;
+        margin-left: -65%;
+        margin-top: 3%;
+    
+    }
+    
+    .paragraphe4 {
+    
+        color: white;
+        text-align: left;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        font-size: 0.96em;
+        line-height: 160%;
+        margin-bottom: 1%;
+        margin-top: -27%;
+        
     }
 
     /* premiere animation */
@@ -1391,7 +1475,7 @@ nav {
     
     }
 
-    /* deuxième animation */
+    /* deuxieme animation */
 
     .bar2 {
 
@@ -1478,6 +1562,298 @@ nav {
     
     }
 
+    /* troisieme animation */
+
+    .bar3 {
+
+        position: relative;
+        height: 5.5px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 4.5px;
+        box-shadow: 0 0 3px rgba(192,192,192,0.9);
+        
+    }
+
+    @keyframes fill-17 {
+
+        10%   { width: 0;}
+        100% { width: 20px;}
+    
+    }
+    
+    @keyframes fill-18 {
+    
+        10%   { width: 0;}
+        100% { width: 30px;}
+    
+    }
+    
+    @keyframes fill-19 {
+    
+        10%   { width: 0;}
+        100% { width: 40px;}
+    
+    }
+    
+    @keyframes fill-20 {
+    
+        10%   { width: 0; }
+        100% { width: 50px;}
+    
+    }
+    
+    @keyframes fill-21 {
+    
+        10%   { width: 0;}
+        100% { width: 60px;}
+      
+    }
+    
+    @keyframes fill-22 {
+    
+        10%   { width: 0;}
+        100% { width: 70px;}
+    
+    }
+    
+    @keyframes fill-23 {
+    
+        10%   { width: 0;}
+        100% { width: 80px;}
+    
+    }
+    
+    @keyframes fill-24 {
+    
+        10%   { width: 0;}
+        100% { width: 90px;}
+    
+    }
+
+    /* quatrieme animation */
+
+    .bar4 {
+
+        position: relative;
+        height: 5px;
+        background: #6a6a6a;
+        width: 0%;
+        top: 0px;
+        left: 250px;
+        margin-top: 4px;
+        box-shadow: 0 0 3px rgba(192,192,192,0.9);
+        
+    }
+
+    @keyframes fill-25 {
+
+        10%   { width: 0;}
+        100% { width: 100px;}
+    
+    }
+    
+    @keyframes fill-26 {
+    
+        10%   { width: 0;}
+        100% { width: 80px;}
+    
+    }
+    
+    @keyframes fill-27 {
+    
+        10%   { width: 0;}
+        100% { width: 60px;}
+    
+    }
+    
+    @keyframes fill-28 {
+    
+        10%   { width: 0; }
+        100% { width: 45px;}
+    
+    }
+    
+    @keyframes fill-29 {
+    
+        10%   { width: 0;}
+        100% { width: 45px;}
+      
+    }
+    
+    @keyframes fill-30 {
+    
+        10%   { width: 0;}
+        100% { width: 60px;}
+    
+    }
+    
+    @keyframes fill-31 {
+    
+        10%   { width: 0;}
+        100% { width: 80px;}
+    
+    }
+    
+    @keyframes fill-32 {
+    
+        10%   { width: 0;}
+        100% { width: 100px;}
+    
+    }
+
+    /* affichage des boutons */
+
+    .games {
+
+        border: 7px solid black;
+        border-radius: 70px;
+        box-shadow: 20px 20px 20px black;
+        margin-bottom: 0px;
+    
+    }
+
+    /* bouton jeux video */
+
+    .jeux { 
+    
+        color: rgb(165, 159, 159);
+        font-size: 1.7em;
+        background-color: rgb(16, 15, 15);
+        border: 1px solid  rgb(165, 159, 159);
+        border-radius: 70px 70px 70px 70px;
+        font-family: 'Secular One', sans-serif;
+        margin-left: 8%;
+        width: 97%;
+        height: 95%;
+    
+    }
+
+    .jeux:hover, .jeux2:hover, .jeux3:hover {
+
+        color: white;
+        font-size: 1.7em;
+        background-color: black;
+        border: 1px solid  white;
+        box-shadow: none;
+
+    }
+
+    /* bouton console */
+
+    .jeux2 { 
+    
+        color: rgb(165, 159, 159);
+        font-size: 1.7em;
+        background-color: rgb(16, 15, 15);
+        border: 1px solid  rgb(165, 159, 159);
+        border-radius: 70px 70px 70px 70px;
+        font-family: 'Secular One', sans-serif;
+        margin-left: 1%;
+        width: 88%;
+        height: 95%;
+    
+    }
+
+    /* bouton manette */
+
+    .jeux3 { 
+    
+        color: rgb(165, 159, 159);
+        font-size: 1.7em;
+        background-color: rgb(16, 15, 15);
+        border: 1px solid  rgb(165, 159, 159);
+        border-radius: 70px 70px 70px 70px;
+        font-family: 'Secular One', sans-serif;
+        margin-left: 8%;
+        width: 93%;
+        height: 95%;
+    
+    }
+
+    /* bouton github */ 
+
+    .git {
+
+        width: 22%;
+        margin-bottom: 5%;
+        margin-top: -1%;
+    
+    }
+
+    .git:hover  {
+
+        width: 22%;
+    
+    }
+
+    /* barre de scroll */
+
+    nav {
+
+        background-color: black;
+        position: fixed;
+        width: 99.6%;
+        height: 46px;
+        top: -80px;
+        border: 1.8px solid white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .scroll {
+
+        color: white;
+        font-size: 1.8em; 
+        margin-top: -3px; 
+        margin-left: 5px;
+        
+    }
+
+    .scroll::after {
+
+        display: block;
+        background: none;
+        transform: none;
+        transition: none;
+       
+    }
+
+    .scrollbouton {
+
+        width: auto;
+        height: 33px;
+        border: none;
+        background: none;
+        font-family: 'Secular One', sans-serif;
+
+    }
+
+    /*  deuxième ligne blanche */
+
+    .ligne2 {
+
+        width: 88%;
+        color: white;
+        margin-bottom: 2%;
+        margin-top: -5%;
+        
+    }
+
+    /* faux copyright */
+
+    .fakecopyright {
+
+        color: white;
+        font-size: 1em;
+        margin-bottom: 1.5%;
+    
+    }
+
 }
 
 /*//////////////////////////////////////////
@@ -1549,13 +1925,18 @@ nav {
 
     /* images des blocs */
 
+    .imgaccueil, .imgaccueil2, .imgaccueil3, .imgaccueil4 {
+
+        width: 88%;
+        height: 160px;
+        border-radius: 0%;
+
+    }
+
     .imgaccueil {
 
         margin-top: -3%;
         margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
 
     }
     
@@ -1563,9 +1944,6 @@ nav {
     
         margin-top: -7%;
         margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
         
     }
     
@@ -1573,9 +1951,6 @@ nav {
     
         margin-top: -2.5%;
         margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
         
     }
     
@@ -1583,9 +1958,6 @@ nav {
     
         margin-top: -6%;
         margin-left: 1%;
-        width: 88%;
-        height: 160px;
-        border-radius: 0%;
         
     }
 
@@ -1957,16 +2329,6 @@ nav {
     
     }
 
-    .jeux:hover {
-
-        color: white;
-        font-size: 1.2em;
-        background-color: black;
-        border: 1px solid  white;
-        box-shadow: none;
-
-    }
-
     /* bouton console */
 
     .jeux2 { 
@@ -1981,16 +2343,6 @@ nav {
         width: 82%;
         height: 60%;
     
-    }
-
-    .jeux2:hover {
-
-        color: white;
-        font-size: 1.2em;
-        background-color: black;
-        border: 1px solid  white;
-        box-shadow: none;
-
     }
 
     /* bouton manette */
@@ -2009,7 +2361,7 @@ nav {
     
     }
 
-    .jeux3:hover {
+    .jeux:hover, .jeux2:hover, .jeux3:hover {
 
         color: white;
         font-size: 1.2em;
@@ -2060,6 +2412,15 @@ nav {
         
     }
 
+    .scroll::after {
+
+        display: block;
+        background: none;
+        transform: none;
+        transition: none;
+       
+    }
+
     .scrollbouton {
 
         width: auto;
@@ -2087,6 +2448,7 @@ nav {
 
         color: white;
         font-size: 0.8em;
+        margin-bottom: 1.5%;
     
     }
 
@@ -2164,13 +2526,18 @@ nav {
 
     /* images des blocs */
 
+    .imgaccueil, .imgaccueil2, .imgaccueil3, .imgaccueil4 {
+
+        width: 85.5%;
+        height: 135px;
+        border-radius: 0%; 
+
+    }
+
     .imgaccueil {
 
         margin-top: -3%;
         margin-left: 1%;
-        width: 85.5%;
-        height: 135px;
-        border-radius: 0%;
 
     }
 
@@ -2178,9 +2545,6 @@ nav {
 
         margin-top: -2%;
         margin-left: 1%;
-        width: 85.5%;
-        height: 135px;
-        border-radius: 0%;
     
     }
 
@@ -2188,9 +2552,6 @@ nav {
 
         margin-top: -2.5%;
         margin-left: 1%;
-        width: 85.5%;
-        height: 135px;
-        border-radius: 0%;
     
     }
 
@@ -2198,9 +2559,6 @@ nav {
 
         margin-top: -3%;
         margin-left: 1%;
-        width: 85.5%;
-        height: 135px;
-        border-radius: 0%;
     
     }
 
@@ -2572,16 +2930,6 @@ nav {
     
     }
 
-    .jeux:hover {
-
-        color: white;
-        font-size: 1.2em;
-        box-shadow: none;
-        background-color: black;
-        border: 1px solid  white;
-
-    }
-
     /* bouton console */
 
     .jeux2 { 
@@ -2596,16 +2944,6 @@ nav {
         width: 93%;
         height: 60%;
     
-    }
-
-    .jeux2:hover {
-
-        color: white;
-        font-size: 1.2em;
-        box-shadow: none;
-        background-color: black;
-        border: 1px solid  white;
-
     }
 
     /* bouton manette */
@@ -2624,13 +2962,13 @@ nav {
     
     }
 
-    .jeux3:hover {
+    .jeux:hover, .jeux2:hover, .jeux3:hover {
 
         color: white;
         font-size: 1.2em;
-        box-shadow: none;
         background-color: black;
         border: 1px solid  white;
+        box-shadow: none;
 
     }
 
@@ -2702,6 +3040,7 @@ nav {
 
         color: white;
         font-size: 0.7em;
+        margin-bottom: 1.5%;
     
     }
 
