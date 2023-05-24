@@ -126,7 +126,7 @@ body {
 
 /* images des blocs */
 
-.imgaccueil {
+.imgaccueil, .imgaccueil2, .imgaccueil3, .imgaccueil4{
 
     margin-left: 16%;
     margin-top: -3%;
@@ -136,45 +136,22 @@ body {
 
 }
 
-.imgaccueil2 {
+/* les titres des paragraphes */
 
-    margin-left: 16%;
-    margin-top: -3%;
-    height: 450px;
-    width: 72%;
-    border-radius: 20px 20px 20px 20px;
+.paratitre, .paratitre2, .paratitre3, .paragraphe4 {
 
-}
-
-.imgaccueil3 {
-
-    margin-left: 16%;
-    margin-top: -3%;
-    height: 450px;
-    width: 72%;
-    border-radius: 20px 20px 20px 20px;
-
-}
-
-.imgaccueil4 {
-
-    margin-left: 16%;
-    margin-top: -3%;
-    height: 450px;
-    width: 72%;
-    border-radius: 20px 20px 20px 20px;
+    text-align: left;
+    color: white;
+    font-size: 3em;
+    line-height: 117%;
 
 }
 
 /* premier bloc */
 
 .paratitre {
-
-    text-align: left;
-    color: white;
-    font-size: 3em;
+    
     margin-top: -2%;
-    line-height: 117%;
     margin-right: 60.5%;
     margin-top: 2.3%;
 
@@ -208,11 +185,7 @@ body {
 
 .paratitre2 {
 
-    text-align: left;
-    color: white;
-    font-size: 3em;
     margin-top: 3%;
-    line-height: 117%;
     margin-right: 43%;
     margin-top: 5.5%;
 
@@ -246,11 +219,7 @@ body {
 
 .paratitre3 {
 
-    text-align: left;
-    color: white;
-    font-size: 3em;
     margin-top: 3%;
-    line-height: 117%;
     margin-right: 44%;
     margin-top: 5.5%;
 
@@ -284,11 +253,7 @@ body {
 
 .paratitre4 {
 
-    text-align: left;
-    color: white;
-    font-size: 3em;
     margin-top: 3%;
-    line-height: 117%;
     margin-right: 53.7%;
     margin-top: 5.5%;
 
@@ -1239,15 +1204,22 @@ nav {
         
     }
 
-    /* premier bloc */
+    /* les titres des paragraphes */
 
-    .paratitre {
+    .paratitre, .paratitre2, .paratitre3, .paratitre4 {
 
         text-align: left;
         color: white;
         font-size: 1.899em;
-        margin-top: -4.5%;
         line-height: 90%;
+
+    }
+
+    /* premier bloc */
+
+    .paratitre {
+
+        margin-top: -4.5%;
         margin-right: 40%;
 
     }
@@ -1281,11 +1253,7 @@ nav {
 
     .paratitre2 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.899em;
         margin-top: -18%;
-        line-height: 90%;
         margin-right: 6%;
     
     }
@@ -1318,11 +1286,7 @@ nav {
 
     .paratitre3 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.899em;
         margin-top: -19%;
-        line-height: 90%;
         margin-right: 8%;
         
     }
@@ -1355,11 +1319,7 @@ nav {
 
     .paratitre4 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.899em;
         margin-top: -19%;
-        line-height: 90%;
         margin-right: 28%;
         
     }
@@ -1961,17 +1921,24 @@ nav {
         
     }
 
+    /* les titres des paragraphes */
+
+    .paratitre, .paratitre2, .paratitre3, .paratitre4 {
+
+        position: absolute;
+        line-height: 90%;
+        text-align: left;
+        color: white;
+        font-size: 1.6em;
+
+    }
+
     /* premier bloc */
 
     .paratitre {
 
-        text-align: left;
-        color: white;
-        font-size: 1.6em;
         margin-top: -9%;
-        line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
@@ -2004,13 +1971,8 @@ nav {
 
     .paratitre2 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.6em;
         margin-top: -25%;
-        line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
@@ -2042,13 +2004,8 @@ nav {
 
     .paratitre3 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.6em;
         margin-top: -25%;
-        line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
@@ -2080,13 +2037,8 @@ nav {
 
     .paratitre4 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.6em;
         margin-top: -25%;
-        line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
@@ -2562,17 +2514,25 @@ nav {
     
     }
 
+    /* les titres des paragraphes */
+
+    .paratitre, .paratitre2, .paragraphe3, .paratitre4 {
+
+        position: absolute;
+        text-align: left;
+        color: white;
+        font-size: 1.4em;
+        line-height: 90%;
+
+    }
+
     /* premier bloc */
 
     .paratitre {
 
-        text-align: left;
-        color: white;
-        font-size: 1.4em;
         margin-top: -9%;
         line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
@@ -2605,14 +2565,10 @@ nav {
 
     .paratitre2 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.4em;
         margin-top: -35%;
         line-height: 90%;
         margin-right: 10%;
-        position: absolute;
-    
+
     }
 
     .logo-holder2 {
@@ -2643,13 +2599,9 @@ nav {
 
     .paratitre3 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.4em;
         margin-top: -35%;
         line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
@@ -2681,13 +2633,9 @@ nav {
 
     .paratitre4 {
 
-        text-align: left;
-        color: white;
-        font-size: 1.4em;
         margin-top: -35%;
         line-height: 90%;
         margin-right: 10%;
-        position: absolute;
     
     }
 
