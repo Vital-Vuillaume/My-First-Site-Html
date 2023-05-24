@@ -1,12 +1,20 @@
 //pour que le site soit securise
 
-if (window.location.protocol != "https:") {
+/*if (window.location.protocol != "https:") {
    window.location.protocol="https:";
-}
+}*/
 
 //pour voir si la console fonctionne
 
 console.log("Bonjour la console");
+
+//fcjgbusfdvbljvrbwlrvbresjbrhjes
+
+let Easteregg = "ESSAYE DE TROUVER LE PLUS D'EASTEREGGS POSSIBLE!" 
+
+let Easteregg1 = "Bien jouer mais ce n'est que le début de l'énigme!                    indice: bouton Xbox Series X"
+
+let Vital = "Vital est beaucoup trop intelligent. il a 300 de QI"
 
 //barre de scroll
 

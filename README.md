@@ -21,7 +21,7 @@ Once on the site, you will find different pages:
 - **Consoles**: A list of the top gaming consoles (portable and stationary) I have chosen, with descriptions.
 - **Controllers**: A list of the best controllers I have selected, along with descriptions.
 - **Contact**: A contact page where you can leave me a message or ask questions.
-- **Projects**: A page where I showcase my projects and those of [asterjdm](https://github.com/asterjdm)
+- **Projects**: A page where I showcase my projects and those of [asterjdm](https://github.com/asterjdm)and [Feur-company](https://github.com/Feur-company)
 - **Donations**: A page where you can make a donation in Bitcoin.
 
 ## Contribution
