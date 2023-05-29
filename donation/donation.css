@@ -1,0 +1,301 @@
+/* la police d'écriture */
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/*///////////////////////////////////////////
+///////////pour les orndinateurs/////////////
+///////////////////////////////////////////*/
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+    padding: 0;
+    align-items: center;
+    color: white;
+
+}
+
+body {
+
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+/* titre */
+
+.title {
+
+    color: white;
+    font-size: 1000%;
+    margin-bottom: -4.7%;
+    margin-top: 0;
+    opacity: 0;
+    transform: translateX(-200px);
+    animation: apparition1 1.5s 0.5s ease-out forwards;
+
+}
+
+@keyframes apparition1 {
+
+    100% {
+
+        opacity: 1;
+        transform: none;
+
+    }
+
+}
+
+/* premiere ligne blanche */
+
+.ligne1 {
+
+    width: 10%;
+    color: white;
+    opacity: 0;
+    animation: apparition2 3s 1s forwards;
+     
+}
+
+@keyframes apparition2 {
+
+    100% {
+
+        opacity: 1;
+        width: 88%;
+
+    }
+
+}
+
+.paragraphe1 {
+
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 18%;
+    margin-right: 11%;
+    margin-bottom: 4%;
+    opacity: 0;
+    animation: apparition1 3s 1s forwards;
+    transform: translateX(150px);
+
+}
+
+.containercodeqr {
+
+    overflow: auto;
+    margin-left: 20%;
+    display: flex;
+    margin-top: -2%;
+
+}
+  
+.codeQR {
+
+    width: 105%;
+    height: 105%;
+    opacity: 0;
+    animation: apparition1 3s 1s forwards;
+    transform: translateY(-150px);
+
+}
+
+.textecentre {
+
+    font-size: 350%;
+    opacity: 0;
+    transform: translateX(-90px);
+    animation: apparition1 3.5s 1s ease-out forwards;
+
+}
+  
+.copy-button {
+
+    background-color: transparent;
+    border: none;
+    float: left;
+    margin-top: 10%;
+    margin-left: 4%;
+
+}
+  
+.copy-icon {
+
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateX(-90px);
+    animation: apparition1 3.5s 1s ease-out forwards;
+
+}
+
+.copy-icon-copied {
+
+    width: 20px;
+    height: 20px;
+    display: none;
+
+}
+  
+.adressebtc {
+
+    font-size: 220%;
+    margin-top: -10%;
+    margin-bottom: -14%;
+    animation: apparition1 4s 1s forwards;
+    transform: translateY(-150px);
+
+}
+
+.adressetest {
+
+    animation: apparition1 4s 1s forwards;
+    opacity: 0;
+    transform: translateY(100px);
+
+}
+  
+.containercodeqr > div {
+
+    flex: 1;
+
+}
+
+a.relai-link {
+
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+
+}
+  
+a.relai-link::after {
+
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.7s ease-in-out;
+
+}
+  
+a.relai-link:hover::after {
+
+    width: 100%;
+
+}
+  
+a.relai-link::before {
+
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.7s ease-in-out;
+
+}
+  
+a.relai-link:hover::before {
+
+    width: 100%;
+
+}
+  
+
+/* deuxieme ligne blanche */
+
+.ligne2 {
+
+    width: 10%;
+    color: white;
+    opacity: 0;
+    animation: apparition2 3s 1s forwards;
+    margin-top: 2.5%;
+     
+}
+
+/* faux copyright */
+
+.fakecopyright {
+
+    color: white;
+    opacity: 0;
+    animation: apparition1 3s 1s forwards;
+    transform: translateX(-150px);
+
+}
+
+/*///////////////////////////////////////////
+/pour les telephones de moins de 321 pixels//
+///////////////////////////////////////////*/
+
+@media screen and (max-width: 320px) {
+
+    /* grand titre */
+
+    .title {
+
+        font-size: 300%;
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: -8%;
+    
+    }
+
+    /* petit titre */
+
+    .title2 {
+
+        font-size: 80%;
+        margin-top: 3%;
+        margin-bottom: -1%;
+    
+    }
+
+    /* première ligne blanche */
+
+    .ligne1 {
+
+        width: 99.5%;
+        margin-bottom: 3%;
+        margin-top: -7%;
+         
+    }
+
+
+
+
+    
+    
+    /*  deuxième ligne blanche */
+
+    .ligne2 {
+
+        width: 88%;
+        margin-bottom: 2%;
+        margin-top: -5%;
+        
+    }
+    
+    /* faux copyright */
+
+    .fakecopyright {
+
+        font-size: 0.7em;
+        margin-bottom: 1.5%;
+    
+    }
+
+}

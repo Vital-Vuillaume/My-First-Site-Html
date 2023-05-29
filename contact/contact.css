@@ -6,32 +6,19 @@
 ///////////pour les orndinateurs/////////////
 ///////////////////////////////////////////*/
 
+* {
+
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+    padding: 0;
+
+}
+
 body {
 
-    background-color: white;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    font-family: 'Secular One', sans-serif;
+    background-color: black;
     text-align: center;
-
-}
-
-/* transition de la page */
-
-.transition {
-
-    animation: apparition 2.5s ease-out forwards;
-
-}
-
-@keyframes apparition {
-
-    100% {
-
-        background-color: black;
-
-    }
+    margin: 0;
 
 }
 
@@ -41,18 +28,15 @@ body {
 
     color: white;
     font-size: 1000%;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
+    margin-bottom: -4.7%;
     margin-top: 0;
     opacity: 0;
-    transform: translateX(-60px);
-    animation: apparition2 3s 2s ease-out forwards;
+    transform: translateY(-200px);
+    animation: apparition1 1.5s 0.5s ease-out forwards;
 
 }
 
-@keyframes apparition2 {
+@keyframes apparition1 {
 
     100% {
 
@@ -69,20 +53,16 @@ body {
 
     width: 10%;
     color: white;
-    margin-bottom: 2%;
-    margin-top: -13%;
     opacity: 0;
-    transform: translateX(-525px);
-    animation: apparition3 4s 3s forwards;
-
+    animation: apparition2 3s 1s forwards;
+     
 }
 
-@keyframes apparition3 {
+@keyframes apparition2 {
 
     100% {
 
         opacity: 1;
-        transform: none;
         width: 88%;
 
     }
