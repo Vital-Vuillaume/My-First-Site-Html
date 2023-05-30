@@ -152,7 +152,7 @@ body {
 
 }
 
-.adressetest {
+.adresse {
 
     animation: apparition1 4s 1s forwards;
     opacity: 0;
@@ -163,6 +163,12 @@ body {
 .containercodeqr > div {
 
     flex: 1;
+
+}
+
+i {
+
+color: rgb(117, 117, 173);
 
 }
 
@@ -183,7 +189,7 @@ a.relai-link::after {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #ffffff;
+    background-color: rgb(117, 117, 173);
     transition: width 0.7s ease-in-out;
 
 }
@@ -202,7 +208,7 @@ a.relai-link::before {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #ffffff;
+    background-color: rgb(117, 117, 173);
     transition: width 0.7s ease-in-out;
 
 }
@@ -277,7 +283,7 @@ a.relai-link:hover::before {
 
 
 
-    
+
     
     /*  deuxième ligne blanche */
 
