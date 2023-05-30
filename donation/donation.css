@@ -228,7 +228,7 @@ a.relai-link:hover::before {
     color: white;
     opacity: 0;
     animation: apparition2 3s 1s forwards;
-    margin-top: 2.5%;
+    margin-top: 1.7%;
      
 }
 
@@ -240,6 +240,7 @@ a.relai-link:hover::before {
     opacity: 0;
     animation: apparition1 3s 1s forwards;
     transform: translateX(-150px);
+    margin-top: 1.4%;
 
 }
 
@@ -257,6 +258,8 @@ a.relai-link:hover::before {
         padding: 10px;
         margin-top: 0;
         margin-bottom: -8%;
+        transform: none;
+        opacity: 1;
     
     }
 
@@ -275,10 +278,26 @@ a.relai-link:hover::before {
     .ligne1 {
 
         width: 99.5%;
-        margin-bottom: 3%;
         margin-top: -7%;
+        margin-bottom: -2%;
+        opacity: 1;
+        transform: none;
+        animation: none;
          
     }
+
+    .paragraphe1 {
+
+        font-size: 0.8em;
+        margin-left: 7%;
+        margin-right: 6.2%;
+        line-height: 150%;
+        margin-bottom: 4%;
+        opacity: 1;
+        transform: none;
+    
+    }
+
 
 
 
@@ -291,7 +310,9 @@ a.relai-link:hover::before {
 
         width: 88%;
         margin-bottom: 2%;
-        margin-top: -5%;
+        margin-top: 53%;
+        opacity: 1;
+        transform: none;
         
     }
     
@@ -301,6 +322,8 @@ a.relai-link:hover::before {
 
         font-size: 0.7em;
         margin-bottom: 1.5%;
+        opacity: 1;
+        transform: none;
     
     }
 
