@@ -72,7 +72,7 @@ body {
 
 }
 
-.paragraphe1 {
+.paragraphe {
 
     font-size: 1.3em;
     text-align: left;
@@ -81,23 +81,24 @@ body {
     margin-bottom: 4%;
     opacity: 0;
     animation: apparition1 3s 1s forwards;
-    transform: translateX(150px);
+    transform: translateX(120px);
 
 }
 
 .containercodeqr {
 
-    overflow: auto;
-    margin-left: 20%;
+    margin-left: 31vh;
     display: flex;
-    margin-top: -2%;
+    margin-top: -2.5%;
+    justify-content: center;
 
 }
   
 .codeQR {
 
-    width: 105%;
-    height: 105%;
+    margin-left: -75%;
+    width: 87%;
+    height: 87%;
     opacity: 0;
     animation: apparition1 3s 1s forwards;
     transform: translateY(-150px);
@@ -106,7 +107,7 @@ body {
 
 .textecentre {
 
-    font-size: 350%;
+    font-size: 420%;
     opacity: 0;
     transform: translateX(-90px);
     animation: apparition1 3.5s 1s ease-out forwards;
@@ -117,9 +118,8 @@ body {
 
     background-color: transparent;
     border: none;
-    float: left;
-    margin-top: 10%;
-    margin-left: 4%;
+    margin-top: 160%;
+    margin-left: 70%;
 
 }
   
@@ -129,8 +129,8 @@ body {
     height: 20px;
     cursor: pointer;
     opacity: 0;
-    transform: translateX(-90px);
-    animation: apparition1 3.5s 1s ease-out forwards;
+    transform: translateX(-150px);
+    animation: apparition1 3s 1s ease-out forwards;
 
 }
 
@@ -145,30 +145,32 @@ body {
 .adressebtc {
 
     font-size: 220%;
-    margin-top: -10%;
-    margin-bottom: -14%;
     animation: apparition1 4s 1s forwards;
     transform: translateY(-150px);
 
 }
 
+.phrase {
+
+    margin-left: 1.5%;
+
+}
+
 .adresse {
 
+    margin-top: -4%;
+    margin-left: 11.5%;
+    line-height: 8%;
     animation: apparition1 4s 1s forwards;
     opacity: 0;
     transform: translateY(100px);
 
 }
-  
-.containercodeqr > div {
-
-    flex: 1;
-
-}
 
 i {
 
-color: rgb(117, 117, 173);
+    color: rgb(117, 117, 173);
+    font-size: 110%;
 
 }
 
@@ -244,6 +246,29 @@ a.relai-link:hover::before {
 
 }
 
+/* scrollbar pour navigateurs basés sur WebKit et Chromium*/
+
+::-webkit-scrollbar {
+
+    width: 0.7vw;
+    background-color: rgb(25, 25, 25);
+
+}
+  
+::-webkit-scrollbar-thumb {
+
+    background-color: #888;
+    border-radius: 6vh;
+    height: 16.5vh; 
+
+}
+  
+::-webkit-scrollbar-thumb:hover {
+
+    background-color: #555;
+
+}
+
 /*///////////////////////////////////////////
 /pour les telephones de moins de 321 pixels//
 ///////////////////////////////////////////*/
@@ -263,16 +288,6 @@ a.relai-link:hover::before {
     
     }
 
-    /* petit titre */
-
-    .title2 {
-
-        font-size: 80%;
-        margin-top: 3%;
-        margin-bottom: -1%;
-    
-    }
-
     /* première ligne blanche */
 
     .ligne1 {
@@ -286,7 +301,7 @@ a.relai-link:hover::before {
          
     }
 
-    .paragraphe1 {
+    .paragraphe {
 
         font-size: 0.8em;
         margin-left: 7%;
@@ -298,7 +313,31 @@ a.relai-link:hover::before {
     
     }
 
+    .containercodeqr {
 
+        margin-left: 31vh;
+        display: inline;
+        margin-top: -2.5%;
+        justify-content: center;
+    
+    }
+
+    .phrase {
+
+        font-size: 0.1em;
+    
+    }
+
+    .codeQR {
+
+        margin-left: 0%;
+        width: 10%;
+        height: 10%;
+        opacity: 0;
+        animation: apparition1 3s 1s forwards;
+        transform: translateY(-150px);
+    
+    }
 
 
 

@@ -1091,17 +1091,6 @@ nav {
 
 @media screen and (max-width: 425px) {
 
-    body {
-
-        background-color: black;
-        background-size: cover;
-        background-position: center;
-        margin: 0;
-        font-family: 'Secular One', sans-serif;
-        text-align: center;
-    
-    }
-
     /* grand titre */
 
     .title {
@@ -1813,17 +1802,6 @@ nav {
 //////////////////////////////////////////*/
 
 @media screen and (max-width: 375px) {
-    
-    body {
-
-        background-color: black;
-        background-size: cover;
-        background-position: center;
-        margin: 0;
-        font-family: 'Secular One', sans-serif;
-        text-align: center;
-    
-    }
 
     /* grand titre */
 
