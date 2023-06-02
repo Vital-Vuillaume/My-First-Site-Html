@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 
 <html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./donation.css" />
+        <script defer src="./donation.js"></script>
+        <title>Donation</title>
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./donation.css" />
-    <script defer src="./donation.js"></script>
-    <title>Donation</title>
-</head>
+    <body>
+        <header>
+            <div>
+                <h1 class="title">DONATION</h1>
+            </div>
 
-<body>
-    <header>
+            <div>
+                <hr class="ligne1">
+            </div>
+        </header>
+
         <div>
-            <h1 class="title">DONATION</h1>
-        </div>
-
-        <div>
-            <hr class="ligne1">
-        </div>
-    </header>
-
-    <div>
-        <p class="paragraphe">Veuillez scanner le code QR ci-dessous pour effectuer votre don en Bitcoin.
-            Votre générosité nous aide à poursuivre notre mission et à atteindre nos objectifs.
-            Chaque don est grandement apprécié. Le code QR doit être scaner avec <a href="https://relai.app/fr/" class="relai-link"><i>Relai</i></a>.
-        </p>
-    </div>    
-
-    <section class="containercodeqr">
-        <div>
-            <img class="codeQR" src="codeQR.jpeg" alt="codeQR">
-        </div>  
-
+            <p class="paragraphe">Veuillez scanner le code QR ci-dessous pour effectuer votre don en Bitcoin.
+                Votre générosité nous aide à poursuivre notre mission et à atteindre nos objectifs.
+                Chaque don est grandement apprécié. Le code QR doit être scaner 
+                avec <a href="https://relai.app/fr/" class="relai-link"><i>Relai</i></a>.</p>
+        </div>   
+        
         <div>
             <p class="textecentre">OU</p>
         </div>
 
-        <div class="adresse">
-            <p class="adressebtc">Mon adresse Bitcoin:</p>
-            <span class="phrase" id="phrase">bc1qvzgamznhsv49r0mefxs8l60snxg5jplftf0hj6</span>
-        </div>
-        
-        <div>
-            <button class="copy-button" onclick="copyPhrase()">
-                <img id="copyIcon" class="copy-icon" src="copier2.png" alt="Copier">
-                <img id="copiedIcon" class="copy-icon-copied" src="copier1.png" alt="Copié">
-            </button>
-        </div>
-    </section>
+        <section class="containercodeqr">
+            <div>
+                <img class="codeQR" src="codeQR.jpeg" alt="codeQR">
+            </div> 
 
-    <footer>
-        <div>
-            <hr class="ligne2">
-        </div>
+            <section class="adresse">
+                <div>
+                    <p class="adressebtc">Mon adresse Bitcoin:</p>
+                </div>
 
-        <!--fake copyright-->
+                <div class="adresse-copier">
+                    <div>    
+                        <span class="phrase" id="phrase">bc1qvzgamznhsv49r0mefxs8l60snxg5jplftf0hj6</span>
+                    </div>
+                    
+                    <div>
+                        <button class="copy-button" onclick="copyPhrase()">
+                            <img id="copyIcon" class="copy-icon" src="copier2.png" alt="Copier">
+                            <img id="copiedIcon" class="copy-icon-copied" src="copier1.png" alt="Copié">
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </section>
 
-        <div>
-            <p class="fakecopyright">ⓒ 2023 - Vital production</p>
-        </div>
-    </footer>
-</body>
+        <footer>
+            <div>
+                <hr class="ligne2">
+            </div>
 
+            <div><!--fake copyright-->
+                <p class="fakecopyright">ⓒ 2023 - Vital production</p>
+            </div>
+        </footer>
+    </body>
 </html>

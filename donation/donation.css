@@ -29,7 +29,6 @@ body {
 
 .title {
 
-    color: white;
     font-size: 1000%;
     margin-bottom: -4.7%;
     margin-top: 0;
@@ -55,7 +54,6 @@ body {
 .ligne1 {
 
     width: 10%;
-    color: white;
     opacity: 0;
     animation: apparition2 3s 1s forwards;
      
@@ -87,18 +85,18 @@ body {
 
 .containercodeqr {
 
-    margin-left: 31vh;
     display: flex;
-    margin-top: -2.5%;
-    justify-content: center;
+    justify-content: space-around;
+    transform: translateY(-245px);
+
 
 }
   
 .codeQR {
 
-    margin-left: -75%;
     width: 87%;
     height: 87%;
+    margin-left: 25%;
     opacity: 0;
     animation: apparition1 3s 1s forwards;
     transform: translateY(-150px);
@@ -109,6 +107,7 @@ body {
 
     font-size: 420%;
     opacity: 0;
+    margin-top: 7.5%;
     transform: translateX(-90px);
     animation: apparition1 3.5s 1s ease-out forwards;
 
@@ -118,8 +117,7 @@ body {
 
     background-color: transparent;
     border: none;
-    margin-top: 160%;
-    margin-left: 70%;
+    margin-left: 80%;
 
 }
   
@@ -145,6 +143,7 @@ body {
 .adressebtc {
 
     font-size: 220%;
+    margin-right: -14%;
     animation: apparition1 4s 1s forwards;
     transform: translateY(-150px);
 
@@ -152,18 +151,24 @@ body {
 
 .phrase {
 
-    margin-left: 1.5%;
+    margin-left: 4%;
 
 }
 
 .adresse {
 
     margin-top: -4%;
-    margin-left: 11.5%;
-    line-height: 8%;
     animation: apparition1 4s 1s forwards;
     opacity: 0;
     transform: translateY(100px);
+
+}
+
+.adresse-copier {
+
+    display: flex;
+    margin-top: -10%;
+    margin-left: 7%;
 
 }
 
@@ -220,17 +225,15 @@ a.relai-link:hover::before {
     width: 100%;
 
 }
-  
 
 /* deuxieme ligne blanche */
 
 .ligne2 {
 
+    margin-top: -16.5%;
     width: 10%;
-    color: white;
     opacity: 0;
     animation: apparition2 3s 1s forwards;
-    margin-top: 1.7%;
      
 }
 
@@ -238,7 +241,6 @@ a.relai-link:hover::before {
 
 .fakecopyright {
 
-    color: white;
     opacity: 0;
     animation: apparition1 3s 1s forwards;
     transform: translateX(-150px);
@@ -288,7 +290,7 @@ a.relai-link:hover::before {
     
     }
 
-    /* première ligne blanche */
+    /* premiere ligne blanche */
 
     .ligne1 {
 
@@ -315,10 +317,25 @@ a.relai-link:hover::before {
 
     .containercodeqr {
 
-        margin-left: 31vh;
         display: inline;
-        margin-top: -2.5%;
-        justify-content: center;
+    
+    }
+
+    .codeQR {
+
+        margin-left: 0%;
+        width: 70%;
+        height: 70%;
+        opacity: 1;
+        transform: none
+    
+    }
+
+    .textecentre {
+
+        font-size: 420%;
+        opacity: 1;
+        transform: none;
     
     }
 
@@ -328,22 +345,11 @@ a.relai-link:hover::before {
     
     }
 
-    .codeQR {
-
-        margin-left: 0%;
-        width: 10%;
-        height: 10%;
-        opacity: 0;
-        animation: apparition1 3s 1s forwards;
-        transform: translateY(-150px);
-    
-    }
-
 
 
 
     
-    /*  deuxième ligne blanche */
+    /*  deuxieme ligne blanche */
 
     .ligne2 {
 
