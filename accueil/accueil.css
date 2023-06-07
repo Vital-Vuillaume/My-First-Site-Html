@@ -1009,8 +1009,7 @@ nav {
     margin-top: -15px; 
     margin-left: 5px;
     cursor: pointer;
-    transition: 0.5s; 
-    
+
 }
 
 .scroll::after {
@@ -1022,7 +1021,7 @@ nav {
     display: block;
     background: white;
     transform: scale(0);
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.8s ease-in-out;
    
 }
 
