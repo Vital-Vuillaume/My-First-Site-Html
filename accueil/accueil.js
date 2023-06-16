@@ -1,12 +1,18 @@
 //pour que le site soit securise
 
-if (window.location.protocol != "https:") {
+/*if (window.location.protocol != "https:") {
    window.location.protocol="https:";
-}
+}*/
 
 //pour voir si la console fonctionne
 
 console.log("Bonjour la console");
+
+//fcjgbusfdvbljvrbwlrvbresjbrhjes
+
+let Easteregg = "ESSAYE DE TROUVER LE PLUS D'EASTEREGGS POSSIBLE!" 
+
+let Vital = "Vital est beaucoup trop intelligent. Il a 300 de QI"
 
 //barre de scroll
 
