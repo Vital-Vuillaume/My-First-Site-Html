@@ -8,5 +8,5 @@ function copyPhrase() {
     
     copyIcon.style.display = "none";
     copiedIcon.style.display = "inline-block";
-    x
+    
 }
