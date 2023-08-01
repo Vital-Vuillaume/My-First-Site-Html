@@ -1,4 +1,4 @@
-# My Video Game Website
+# My First Site Html
 
 Welcome to my video game website! This site was created to share my passion for video games with other gamers. It features information about my favorite games, reviews, tips, and much more.
 
@@ -12,7 +12,7 @@ This site was developed using the following technologies:
 
 ## How to Use the Site
 
-To access the site, simply click on the following link: [My Website](https://rmbi.ch/vital/)
+To access the site, simply click on the following link: [My First Site Html](https://rmbi.ch/vital/mfsh/)
 
 Once on the site, you will find different pages:
 
