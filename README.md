@@ -4,11 +4,9 @@ Welcome to my video game website! This site was created to share my passion for 
 
 ## Technologies Used
 
-This site was developed using the following technologies:
+**This site was developed using the following technologies:**
 
-- HTML5: Used for the site's structure and content.
-- CSS3: Used for layout and design.
-- JavaScript: Used to add interactive features.
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://github.com/Vital-Vuillaume)
 
 ## How to Use the Site
 
