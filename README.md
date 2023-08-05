@@ -1,6 +1,6 @@
 # My First Site Html
 
-Welcome to my video game website! This site was created to share my passion for video games with other gamers. It features information about my favorite games, reviews, tips, and much more.
+**Welcome to my video game website! This site was created to share my passion for video games with other gamers. It features information about my favorite games, reviews, tips, and much more.**
 
 ## Technologies Used
 
@@ -10,24 +10,44 @@ Welcome to my video game website! This site was created to share my passion for 
 
 ## How to Use the Site
 
-To access the site, simply click on the following link: [My First Site Html](https://rmbi.ch/vital/mfsh/)
+### To access the site, simply click on the following link: [***My First Site Html***](https://rmbi.ch/vital/mfsh/)
 
-Once on the site, you will find different pages:
+**Once on the site, you will find different pages:**
 
-- **Home**: An introductory page with a brief description of the site.
-- **Games**: A list of the best video games I have selected, along with descriptions.
-- **Consoles**: A list of the top gaming consoles (portable and stationary) I have chosen, with descriptions.
-- **Controllers**: A list of the best controllers I have selected, along with descriptions.
-- **Contact**: A contact page where you can leave me a message or ask questions.
-- **Projects**: A page where I showcase my projects and those of [asterjdm](https://github.com/asterjdm) and [Feur-company](https://github.com/Feur-company)
-- **Donations**: A page where you can make a donation in Bitcoin.
+- ### Home:
+
+   **An introductory page with a brief description of the site.**
+  
+- ### Games:
+
+   **A list of the best video games I have selected, along with descriptions.**
+  
+- ### Consoles:
+  
+   **A list of the top gaming consoles (portable and stationary) I have chosen, with descriptions.**
+  
+- ### Controllers:
+
+   **A list of the best controllers I have selected, along with descriptions.**
+  
+- ### Contact:
+  
+   **A contact page where you can leave me a message or ask questions.**
+  
+- ### Projects:
+  
+   **A page where I showcase my projects and those of [***Asterjdm***](https://github.com/asterjdm) and [***Feur-company***](https://github.com/Feur-company)**
+  
+- ### Donations:
+  
+   **A page where you can make a donation in Bitcoin.**
 
 ## Contribution
 
-I am open to contributions and suggestions to improve this site:
+- ### I am open to contributions and suggestions to improve this site:
 
-1. You can fork the site.
+  **1. You can fork the site.**
 
 ## Acknowledgments
 
-Feel free to explore the site and share your feedback. I hope you enjoy your visit!
+**Feel free to explore the site and share your feedback. I hope you enjoy your visit!**
